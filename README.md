@@ -1,4 +1,29 @@
-# Modern Team Template for Federalist
+# What is this?
+
+This repository organizes project activity for development and operation of the [Cloud Information Center (CIC) site](https://federalist-proxy.app.cloud.gov/site/18f/cic-site/). The CIC site is for blah blah blah.
+
+The CIC is a joint creation of the GSA's Technology Transformation Services team and the FAS ITC in GSA (expand acronyms, link, etc).
+
+## Where is the site?
+The latest version is available at ...
+ 
+Previews for changes in progress are noted in the pull-requests where they're being proposed and discussed.
+
+## What's here
+- Version control for the Jekyll code for actually generating the site
+- Issues and stories related to development of the site
+- The backend content management system for the site, in the form of pull-requests on the code stored here.
+
+## What's elsewhere
+- Story Map (mural)
+- Mockups (invision)
+- Richer text stuff
+  - Research artifacts (gdrive)
+  - presentations (gdrive)
+  - project budget and burndown (gdrive)
+
+---
+# How do I set up and run the site locally?
 
 This is a Jekyll site. It is a simple site to showcase the work of an organization with a few different page types.
 
