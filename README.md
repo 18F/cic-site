@@ -1,12 +1,14 @@
 # What is this?
 
-This repository organizes project activity for development and operation of the [Cloud Information Center (CIC) site](https://federalist-proxy.app.cloud.gov/site/18f/cic-site/). The CIC site is for blah blah blah.
+This repository organizes project activity for development and operation of the [Cloud Information Center (CIC) site](https://federalist-proxy.app.cloud.gov/site/18f/cic-site/).
 
-The CIC is a joint creation of the GSA's Technology Transformation Services team and the FAS ITC in GSA (expand acronyms, link, etc).
+The CIC is a joint creation of the GSA's [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS) team and GSA's [FAS Office of Information Technology Category](https://www.gsa.gov/about-us/organization/federal-acquisition-service/office-of-information-technology-category) (ITC).
+
+GSA is a trusted partner for federal agencies seeking to buy goods and services. This creates an opportunity for GSA to help fellow agencies navigate early steps into cloud platforms and services, by providing guidance on how and where to get started. We're planning to a deliver a web-based prototype of a solution containing self-service information about cloud migration and acquisition options that is designed based on real user needs and which meets the stated business goals of ITC. The intent at this time is to create new content for `gsa.gov/cloud` informed by research into needs and goals of government agency cloud acquirers and industry cloud providers. This content will replace and improves on the [existing content](https://www.gsa.gov/technology/technology-products-services/professional-it-services/cloud-it-acquisition-services) currently on the GSA.gov site.
 
 ## Where is the site?
-The latest version is available at ...
- 
+The latest version is available at https://federalist-proxy.app.cloud.gov/site/18f/cic-site/
+
 Previews for changes in progress are noted in the pull-requests where they're being proposed and discussed.
 
 ## What's here
@@ -15,21 +17,20 @@ Previews for changes in progress are noted in the pull-requests where they're be
 - The backend content management system for the site, in the form of pull-requests on the code stored here.
 
 ## What's elsewhere
-- Story Map (mural)
-- Mockups (invision)
-- Richer text stuff
-  - Research artifacts (gdrive)
-  - presentations (gdrive)
-  - project budget and burndown (gdrive)
+- [Story Map](https://app.mural.co/invitation/mural/gsa6/1533622577595?sender=bretmogilefsky&key=f26d46a8-6fbf-4fe7-83c9-6f50878490e5) (Mural.ly)
+- Mockups (InVision) - Links will be added when these resources exist
+- Richer text artifacts
+  - [User research](https://drive.google.com/drive/u/0/folders/1K4iDVkXgmyhHdF7YOJl62uyXHZGYH_IK) (Google Drive, accessible only to the project team)
+  - [Presentations](https://drive.google.com/drive/u/0/folders/10UKDyLK1p7wSANPrPkE8sLcm_AJX5MlX) (Google Drive, accessible only to the project team)
 
 ---
 # How do I set up and run the site locally?
 
-This is a Jekyll site. It is a simple site to showcase the work of an organization with a few different page types.
+This is a Jekyll site. It is a simple prototype site to showcase the work of an organization with a few different page types.
 
-This particular site is made for use with the [Federalist](https://github.com/18f/federalist) in mind.
+This particular site is made for use with [Federalist](https://github.com/18f/federalist) in mind.
 
-This template uses the CSS and JavaScript from [U.S. Web Design System](https://standards.18f.gov). To update the version of the system, [download the code](https://standards.usa.gov/getting-started/download/) from the website. Unzip the download and drop the entire folder (which should be named something like `uswds-1.1.0`) into `assets/vendor`.
+This template uses the CSS and JavaScript from the [U.S. Web Design System](https://standards.18f.gov). To update the version of the system, [download the code](https://standards.usa.gov/getting-started/download/) from the website. Unzip the download and drop the entire folder (which should be named something like `uswds-1.1.0`) into `assets/vendor`.
 
 In your `_config.yml`, update the `wds-version` value to the new version number. This should match the version number in the name of the folder you just downloaded. In the case of our example, it would look like this: `wds-version: 1.1.0`. You'll need to restart your Jekyll server to see the new code take effect.
 
