@@ -5,7 +5,6 @@ description: A single email to military Servicemembers nearly doubled the rate o
 permalink: /projects/tsp-enrollment/
 tags: project
 image: /assets/img/project-images/roth-tsp-enrollment.jpg
-abstract: /assets/files/servicemember-tsp-enrollment.pdf
 ---
 ## What is the issue?
 
