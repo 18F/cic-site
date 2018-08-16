@@ -1,6 +1,6 @@
 # Site settings
-title: Your Site Name
-description: A description of your website that will show up in search indexes and social media shares.
+title: Cloud Information Center
+description: A site for you to learn about cloud!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://federalist-modern-team-template.18f.gov" # the base hostname & protocol for your site
 logo: /assets/img/logo-main.gif
