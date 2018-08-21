@@ -2,50 +2,88 @@
 layout: base
 ---
 
-<section>
+  <section class="usa-hero">
     <div class="usa-grid">
-      <div class="usa-width-one-half  banner tagline">
-        <h1>{{ page.hero-text }}</h1>
-        {{ page.hero-sub-text }}
-      </div>
-      <div class="usa-width-one-half">
-         Whether you’re piloting a program or migrating an agency, we can help you: 
-         <ul>
-           <li>Learn how and why cloud matters to your mission</li>
-           <li>Build buy-in and support for IT modernization</li>
-           <li>Compare vendors to find the right solutions</li>
-         </ul>
+      <div class=="usa-width-one-third" style="float: left;margin-right: 2em;">
+          <div class="usa-hero-callout usa-section-dark">
+            <h2>
+      
+              <span class="usa-hero-callout-alt">{{ page.hero-text }}</span>
+      
+              
+            </h2>
+      
+      
+            <p>{{ page.hero-sub-text }}</p>
+          </div>
+        </div>
+        <div class="usa-width-one-half">
+           <h3>Whether you’re piloting a program or migrating an agency, we can help you:</h3>
+          <ul>
+            <li>Learn how and why cloud matters to your mission</li>
+            <li>Build buy-in and support for IT modernization</li>
+            <li>Compare vendors to find the right solutions</li>
+          </ul>
 
-      </div>
-  </div>
-</section>
-
-
-{% if page.banner-heading %}
-<section class="usa-section banner tagline">
-  <div class="usa-grid">
-    <div class="usa-width-one-whole usa-end-row">
-      <h2>{{ page.banner-heading }}</h2>
-      {% if page.banner-text %}
-        <p>{{ page.banner-text }}</p>
-      {% endif %}
-      {% if page.banner-button-text %}
-      <div class="center-content">
-        <a href="{{ page.banner-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner-button-text }}</a>
-      </div>
-      {% endif %}
+        </div>
     </div>
-  </div>
-</section>
-{% endif %}
+  </section>
 
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-whole usa-end-row">
-    {{ content }}
-    {% if page.content-button-link %}
-      <a href="{{ page.content-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.content-button-text }}</a>
-    {% endif %}
-  </div>
-</section>
 
-{% include contact.html %}
+
+  <section class="usa-section usa-section-dark usa-graphic_list">
+    <div class="usa-grid usa-graphic_list-row">
+      <div class="usa-width-one-half usa-media_block">
+        <img class="usa-media_block-img" src="/assets/img/circle-124.png" alt="Alt text">
+        <div class="usa-media_block-body">
+          <h3><a href="/why-cloud">Why Cloud?</a></h3>
+          <p>Efficiency, agility, and innovation benefits</p>
+        </div>
+      </div>
+      <div class="usa-width-one-half usa-media_block">
+        <img class="usa-media_block-img" src="/assets/img/circle-124.png" alt="Alt text">
+        <div class="usa-media_block-body">
+          <h3><a href="/find-cloud-solutions">Cloud solutions</a></h3>
+          <p>Products and services that support your mission goals</p>
+        </div>
+      </div>
+    </div>
+    <div class="usa-grid usa-graphic_list-row">
+      <div class="usa-width-one-half usa-media_block">
+        <img class="usa-media_block-img" src="/assets/img/circle-124.png" alt="Alt text">
+        <div class="usa-media_block-body">
+          <h3><a href="/acquisition">Acquisition</a></h3>
+          <p>What you need to know about procurement</p>
+        </div>
+      </div>
+      <div class="usa-width-one-half usa-media_block">
+        <img class="usa-media_block-img" src="/assets/img/circle-124.png" alt="Alt text">
+        <div class="usa-media_block-body">
+          <h3><a href="/implementation">Implementation</a></h3>
+          <p>How to spot opportunities and build buy-in</p>
+        </div>
+      </div>
+    </div>
+        <div class="usa-grid usa-graphic_list-row">
+          <div class="usa-width-one-half usa-media_block">
+            <img class="usa-media_block-img" src="/assets/img/circle-124.png" alt="Alt text">
+            <div class="usa-media_block-body">
+              <h3>
+                <a href="/support">Support</a>
+              </h3>
+              <p>Fast help from real people</p>
+            </div>
+          </div>
+          <div class="usa-width-one-half usa-media_block">
+            <div class="usa-media_block-body">
+              <h3>
+                
+              </h3>
+              <p> </p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
