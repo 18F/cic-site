@@ -2,7 +2,6 @@
 layout: page
 title: Implementation
 permalink: /implementation/
-sidenav_ref: implementation
 ---
 
 Cloud adoption is bigger than just lift and shift — it’s an opportunity to reconsider the what, why, and how of the work you do. 
