@@ -11,6 +11,22 @@ assigned:
         permalink: /why-cloud/
         show_in_menu: true
         show_in_footer: false
+        children:
+            -
+                text: Technical Capabilities
+                href: pages/why-cloud/technical-capabilities.md
+                show_in_menu: false
+                show_in_footer: false
+            -
+                text: Security Compliance
+                href: pages/why-cloud/security-compliance.md
+                show_in_menu: false
+                show_in_footer: false
+            -
+                text: Case Studies
+                href: pages/why-cloud/case-studies.md
+                show_in_menu: false
+                show_in_footer: false
     -
         text: Find Cloud Solutions
         href: pages/find-cloud-solutions.md

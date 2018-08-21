@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Why Cloud?
-permalink: /Why Cloud?/
+permalink: /why-cloud/
 image: /assets/img/about.jpg
 ---
 
