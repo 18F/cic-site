@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenav-page
 title: Customer Support
 permalink: /find-cloud-solutions/customer-support
 ---

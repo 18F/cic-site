@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenav-page
 title: Support
 permalink: /support/
 ---

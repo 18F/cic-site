@@ -1,5 +1,5 @@
 ---
-layout: solution
+layout: sidenav-page
 title: Custom application & COTS Software hosting
 permalink: /find-cloud-solutions/application-hosting
 description: Hosting on the cloud for all kinds of software

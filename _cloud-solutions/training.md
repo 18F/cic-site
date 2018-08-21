@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenav-page
 title: Training
 permalink: /find-cloud-solutions/training
 ---

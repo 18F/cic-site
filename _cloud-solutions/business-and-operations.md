@@ -1,5 +1,5 @@
 ---
-layout: solution
+layout: sidenav-page
 title: Business and operations
 permalink: /find-cloud-solutions/business-and-operations
 description: Hosting on the cloud for all kinds of software

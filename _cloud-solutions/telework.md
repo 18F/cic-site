@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenav-page
 title: Telework
 permalink: /find-cloud-solutions/telework
 ---
