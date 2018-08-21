@@ -1,7 +1,7 @@
 ---
 layout: team-list
-title: Meet the team
-permalink: /team/
+title: Acquisition
+permalink: /Acquisition/
 body-class: page-team
 ---
 

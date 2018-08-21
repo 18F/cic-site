@@ -6,15 +6,15 @@ assigned:
         show_in_menu: false
         show_in_footer: false
     -
-        text: About
-        href: pages/about.md
-        permalink: /about/
+        text: Why Cloud?
+        href: pages/why-cloud.md
+        permalink: /why-cloud/
         show_in_menu: true
         show_in_footer: false
     -
-        text: Work
-        href: pages/projects.md
-        permalink: /projects/
+        text: Find Cloud Solutions
+        href: pages/find-cloud-solutions.md
+        permalink: /find-cloud-solutions/
         show_in_menu: true
         show_in_footer: false
         children:
@@ -29,14 +29,21 @@ assigned:
                 show_in_menu: false
                 show_in_footer: false
     -
-        text: 'Team'
-        href: pages/team.md
-        permalink: /team/
+        text: Acquisition
+        href: pages/acquisition.md
+        permalink: /acquisition/
         show_in_menu: true
         show_in_footer: false
     -
-        text: 'Project data'
-        href: _data/projects.yml
-        show_in_menu: false
+        text: Implementation
+        href: pages/implementation.md
+        permalink: /implementation/
+        show_in_menu: true
         show_in_footer: false
+    -
+        text: Support
+        href: pages/support.md
+        permalink: /support/
+        show_in_menu: true
+        show_in_footer: false        
 unassigned: []
