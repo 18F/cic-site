@@ -3,20 +3,23 @@ layout: base
 ---
 
 <section>
-  <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
     <div class="usa-grid">
-      <div class="usa-width-whole hero-content">
+      <div class="usa-width-one-half  banner tagline">
         <h1>{{ page.hero-text }}</h1>
-        <a class="usa-button" href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
+        {{ page.hero-sub-text }}
       </div>
-    </div>
+      <div class="usa-width-one-half">
+         Whether you’re piloting a program or migrating an agency, we can help you: 
+         <ul>
+           <li>Learn how and why cloud matters to your mission</li>
+           <li>Build buy-in and support for IT modernization</li>
+           <li>Compare vendors to find the right solutions</li>
+         </ul>
+
+      </div>
   </div>
 </section>
 
-<section class="usa-grid usa-section">
-    <h2>Work</h2>
-    {% include projects.html %}
-</section>
 
 {% if page.banner-heading %}
 <section class="usa-section banner tagline">

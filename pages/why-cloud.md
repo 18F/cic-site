@@ -2,7 +2,6 @@
 layout: page
 title: Why Cloud?
 permalink: /why-cloud/
-image: /assets/img/about.jpg
 ---
 
 For the better part of a decade, the Cloud First policy — government’s mandate to increase cloud adoption — has advised agencies on IT modernization. But while policy guidance has been clear, the reasons behind the mandate have not always been. 
