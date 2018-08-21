@@ -13,18 +13,62 @@ Although there are hurdles to buying cloud, there are also strategies that can h
 Learn more about cloud acquisition below, or check the sidebar for a list of all acquisition resources.
 
 
+<div class="project-container">
 <div class="usa-grid">
-    <div class="usa-width-one-third">
-        <h3><a href="/acquisition/procurement-process">Strategies</a></h3>
-        Ways to make your acquisition easier
-    </div>
-    <div class="usa-width-one-third">
-        <h3><a href="/acquisition/procurement-process/#vendor-comparison-and-evaluation">Vendor comparison</a></h3>
-        Tips for comparing service offerings and choosing the right provider
-    </div>
-    <div class="usa-width-one-third">
-        <h3><a href="acquisition-template-documents">Templates</a></h3>
-        Approved language for SOOs, requirements documents, and more
-    </div>
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/acquisition/procurement-process" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Strategies</span>
+        </h3>
+        <p class="card-summary">Ways to make your acquisition easier</p>
+      </div>
+    </article>
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/acquisition/procurement-process/#vendor-comparison-and-evaluation" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Vendor comparison</span>
+        </h3>
+        <p class="card-summary"> Tips for comparing service offerings and choosing the right provider</p>
+      </div>
+    </article>
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/acquisition/acquisition-template-documents" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Templates</span>
+        </h3>
+        <p class="card-summary">Approved language for SOOs, requirements documents, and more</p>
+      </div>
+    </article>
+  </div>
   </div>
 
