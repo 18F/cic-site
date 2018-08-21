@@ -1,5 +1,5 @@
 ---
-layout: sidenav-page
+layout: page
 title: Implementation
 permalink: /implementation/
 sidenav_ref: implementation

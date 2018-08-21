@@ -41,7 +41,7 @@ assigned:
         children:
             -
                 text: Business and Operations
-                permalink: 
+                permalink: /cloud-solutions/business-and-operations
                 href: _cloud-solutions/business-and-operations.md
                 show_in_menu: true
                 show_in_footer: false
@@ -127,5 +127,12 @@ assigned:
         permalink: /support/
         sidenav_ref: support
         show_in_menu: true
-        show_in_footer: false        
+        show_in_footer: false 
+        children:
+            -
+                text: Community
+                permalink: /support/community
+                href: pages/support/community.md
+                show_in_menu: true
+                show_in_footer: false       
 unassigned: []

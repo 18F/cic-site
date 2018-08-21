@@ -1,5 +1,5 @@
 ---
-layout: sidenav-page
+layout: page
 title: Acquisition
 permalink: /acquisition/
 sidenav_ref: acquisition
