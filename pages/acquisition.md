@@ -2,6 +2,7 @@
 layout: sidenav-page
 title: Acquisition
 permalink: /acquisition/
+sidenav_ref: acquisition
 ---
 
 There’s one problem that often blocks government from even getting started with the cloud: procurement. Getting a single cloud account can take six or more months.

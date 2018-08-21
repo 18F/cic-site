@@ -1,7 +1,8 @@
 ---
 layout: sidenav-page
 title: Find Cloud Solutions
-permalink: /find-cloud-solutions/
+permalink: /cloud-solutions/
+sidenav_ref: solutions
 ---
 
 ## << Content needed here >>

@@ -34,37 +34,44 @@ assigned:
     -
         text: Find Cloud Solutions
         href: pages/find-cloud-solutions.md
-        permalink: /find-cloud-solutions/
+        permalink: /cloud-solutions/
+        sidenav_ref: solutions
         show_in_menu: true
         show_in_footer: false
         children:
             -
                 text: Business and Operations
+                permalink: 
                 href: _cloud-solutions/business-and-operations.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Custom Application and COTS Software Hosting
+                permalink: /cloud-solutions/application-hosting
                 href: _cloud-solutions/application-hosting.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Customer Support
+                permalink: /cloud-solutions/customer-support
                 href: _cloud-solutions/customer-support.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Telework
+                permalink: /cloud-solutions/telework
                 href: _cloud-solutions/telework.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Training
+                permalink: /cloud-solutions/training
                 href: _cloud-solutions/training.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Research Tools
+                permalink: /cloud-solutions/research-tools
                 href: _cloud-solutions/research-tools.md
                 show_in_menu: true
                 show_in_footer: false
@@ -72,16 +79,19 @@ assigned:
         text: Acquisition
         href: pages/acquisition.md
         permalink: /acquisition/
+        sidenav_ref: acquisition
         show_in_menu: true
         show_in_footer: false
         children:
             -
                 text: Procurement process
+                permalink: /acquisition/procurement-process
                 href: pages/acquisition/procurement-process.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Acquisition documents
+                permalink: /acquisition/acquisition-template-documents
                 href: pages/acquisition/acquisition-template-documents.md
                 show_in_menu: true
                 show_in_footer: false
@@ -89,21 +99,25 @@ assigned:
         text: Implementation
         href: pages/implementation.md
         permalink: /implementation/
+        sidenav_ref: implementation
         show_in_menu: true
         show_in_footer: false
         children:
             -
                 text: Success Plans
+                permalink: /implementation/success-plans
                 href: pages/implementation/success-plans.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Maintenance
+                permalink: /implementation/maintenance/
                 href: pages/implementation/maintenance.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Compliance
+                permalink: /implementation/compliance
                 href: pages/implementation/compliance.md
                 show_in_menu: true
                 show_in_footer: false
@@ -111,6 +125,7 @@ assigned:
         text: Support
         href: pages/support.md
         permalink: /support/
+        sidenav_ref: support
         show_in_menu: true
         show_in_footer: false        
 unassigned: []

@@ -1,11 +1,12 @@
 ---
 layout: sidenav-page
 title: Custom application & COTS Software hosting
-permalink: /find-cloud-solutions/application-hosting
+permalink: /cloud-solutions/application-hosting
 description: Hosting on the cloud for all kinds of software
 tags: solution-type
 image: /assets/img/project-images/microloans-for-farmers.jpg
 image-credit: https://www.flickr.com/photos/usdagov
+sidenav_ref: solutions
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel fermentum nulla. Phasellus vitae iaculis quam, vitae ultricies lorem. Nulla faucibus ex cursus leo ullamcorper, et vulputate purus tincidunt. Ut placerat justo a velit lacinia, et pretium eros euismod. Vestibulum consectetur condimentum ipsum, in lobortis metus ornare a. Mauris eget purus eget neque mattis pulvinar. Nam nec consectetur orci. Quisque tempor at dolor sed finibus. Vivamus scelerisque consectetur hendrerit.

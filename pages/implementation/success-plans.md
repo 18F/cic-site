@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: sidenav-page
 title: Success Plans
-permalink: /implementation/success-plans/
+permalink: /implementation/success-plans
+sidenav_ref: implementation
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel fermentum nulla. Phasellus vitae iaculis quam, vitae ultricies lorem. Nulla faucibus ex cursus leo ullamcorper, et vulputate purus tincidunt. Ut placerat justo a velit lacinia, et pretium eros euismod. Vestibulum consectetur condimentum ipsum, in lobortis metus ornare a. Mauris eget purus eget neque mattis pulvinar. Nam nec consectetur orci. Quisque tempor at dolor sed finibus. Vivamus scelerisque consectetur hendrerit.
