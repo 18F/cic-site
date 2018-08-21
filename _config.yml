@@ -51,10 +51,9 @@ defaults:
     layout:
       - home
       - page
-      - "project-list"
-      - project
-      - "team-list"
-      - team
+      - "solutions-list"
+      - solution
+
 
 forms:
 - type: newsletter
