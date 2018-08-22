@@ -15,3 +15,62 @@ In addition to efficiency, cloud also lets teams be more agile in the ways they 
 
 If you’re thinking about getting on the cloud, we can help you get started. Visit the [cloud solutions](/find-cloud-solutions) page to see a list of cloud products and services split up by business function, or learn more about building a business case in our [implementation](/implementation) guidance.
 
+<div class="project-container">
+<div class="usa-grid">
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/cloud-solutions" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Cloud Solutions</span>
+        </h3>
+        <p class="card-summary">A list of FedRAMP-authorized products and services arranged by business function</p>
+      </div>
+    </article>
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/acquisition" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Acquisition</span>
+        </h3>
+        <p class="card-summary">How to compare vendors and procure the right solution</p>
+      </div>
+    </article>
+    <article class="card usa-width-one-third">
+      <a class="card-link" href="/implementation" aria-hidden="true" tabindex="-1"></a>
+      <div class="card-image"
+        style="background-image: url(
+        {% if project.image_thumbnail %}
+          {{ project.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ project.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="card-banner">
+        <h3 class="card-description">
+          <span>Implementation</span>
+        </h3>
+        <p class="card-summary">How to build a cloud-ready culture at your agency</p>
+      </div>
+    </article>
+  </div>
+</div>
+
