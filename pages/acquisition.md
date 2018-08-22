@@ -16,7 +16,7 @@ Learn more about cloud acquisition below, or check the sidebar for a list of all
 <div class="project-container">
 <div class="usa-grid">
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/acquisition/procurement-process" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/acquisition/procurement-process" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -34,7 +34,7 @@ Learn more about cloud acquisition below, or check the sidebar for a list of all
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/acquisition/procurement-process/#vendor-comparison-and-evaluation" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/acquisition/procurement-process/#vendor-comparison-and-evaluation" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -52,7 +52,7 @@ Learn more about cloud acquisition below, or check the sidebar for a list of all
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/acquisition/acquisition-template-documents" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/acquisition/acquisition-template-documents" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}

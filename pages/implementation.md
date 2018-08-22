@@ -15,7 +15,7 @@ Find strategies for implementation below, or check the sidebar for additional re
 <div class="project-container">
 <div class="usa-grid">
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/implementation/success-plans#change-management" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/implementation/success-plans#change-management" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -33,7 +33,7 @@ Find strategies for implementation below, or check the sidebar for additional re
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/implementation/success-plans#test-environments" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/implementation/success-plans#test-environments" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -51,7 +51,7 @@ Find strategies for implementation below, or check the sidebar for additional re
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/implementation/success-plans#scaling" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/implementation/success-plans#scaling" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}

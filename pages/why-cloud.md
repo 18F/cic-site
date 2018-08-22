@@ -18,7 +18,7 @@ If you’re thinking about getting on the cloud, we can help you get started. Vi
 <div class="project-container">
 <div class="usa-grid">
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/cloud-solutions" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/cloud-solutions" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -36,7 +36,7 @@ If you’re thinking about getting on the cloud, we can help you get started. Vi
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/acquisition" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/acquisition" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
@@ -54,7 +54,7 @@ If you’re thinking about getting on the cloud, we can help you get started. Vi
       </div>
     </article>
     <article class="card usa-width-one-third">
-      <a class="card-link" href="/implementation" aria-hidden="true" tabindex="-1"></a>
+      <a class="card-link" href="{{ site.baseurl }}/implementation" aria-hidden="true" tabindex="-1"></a>
       <div class="card-image"
         style="background-image: url(
         {% if project.image_thumbnail %}
