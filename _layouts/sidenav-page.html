@@ -25,6 +25,15 @@ layout: base
             {% else %}
             <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
             {% endif %}
+            {% if child.children %}
+              <ul class="usa-sidenav-sub_list">
+             {% for grandchild in child.children %}
+                <a href="{{ grandchild.permalink | prepend: site.baseurl }}">
+                  {{ grandchild.text }}
+                </a>
+             {% endfor %}
+             </ul>
+            {% endif %}
           </li>
          {% endfor %}
         </ul>

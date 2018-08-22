@@ -45,6 +45,19 @@ assigned:
                 href: _cloud-solutions/business-and-operations.md
                 show_in_menu: true
                 show_in_footer: false
+                children:
+                    - 
+                        text: Business management
+                    -
+                        text: Customer relationship management
+                    -
+                        text: Email
+                    -
+                        text: Human resources
+                    -
+                        text: Public and media relations
+                    -
+                        text: Telecommunications
             -
                 text: Custom Application and COTS Software Hosting
                 permalink: /cloud-solutions/application-hosting/
