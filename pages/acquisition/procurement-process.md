@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Procurement Process
-permalink: /acquisition/procurement-process
+permalink: /acquisition/procurement-process/
 sidenav_ref: acquisition
 ---
 

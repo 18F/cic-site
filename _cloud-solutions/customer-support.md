@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Customer Support
-permalink: /find-cloud-solutions/customer-support
+permalink: /cloud-solutions/customer-support/
 sidenav_ref: solutions
 ---
 

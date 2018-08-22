@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Research tools
-permalink: /find-cloud-solutions/research-tools
+permalink: /cloud-solutions/research-tools/
 sidenav_ref: solutions
 ---
 

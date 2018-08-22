@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Training
-permalink: /find-cloud-solutions/training
+permalink: /cloud-solutions/training/
 sidenav_ref: solutions
 ---
 

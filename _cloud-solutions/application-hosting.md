@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Custom application & COTS Software hosting
-permalink: /cloud-solutions/application-hosting
+permalink: /cloud-solutions/application-hosting/
 description: Hosting on the cloud for all kinds of software
 tags: solution-type
 image: /assets/img/project-images/microloans-for-farmers.jpg

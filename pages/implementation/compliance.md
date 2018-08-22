@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Compliance
-permalink: /implementation/compliance
+permalink: /implementation/compliance/
 sidenav_ref: implementation
 ---
 

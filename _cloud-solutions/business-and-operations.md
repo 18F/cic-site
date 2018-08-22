@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Business and operations
-permalink: /cloud-solutions/business-and-operations
+permalink: /cloud-solutions/business-and-operations/
 description: Hosting on the cloud for all kinds of software
 tags: solution-type
 image: /assets/img/project-images/microloans-for-farmers.jpg

@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Success Plans
-permalink: /implementation/success-plans
+permalink: /implementation/success-plans/
 sidenav_ref: implementation
 ---
 

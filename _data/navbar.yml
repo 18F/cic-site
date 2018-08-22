@@ -15,19 +15,19 @@ assigned:
         children:
             -
                 text: Technical Capabilities
-                permalink: /why-cloud/technical-capabilities
+                permalink: /why-cloud/technical-capabilities/
                 href: _why-cloud/technical-capabilities.md
                 show_in_menu: true
                 show_in_footer: true
             -
                 text: Security Compliance
-                permalink: /why-cloud/security-compliance
+                permalink: /why-cloud/security-compliance/
                 href: _why-cloud/security-compliance.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Case Studies
-                permalink: /why-cloud/case-studies
+                permalink: /why-cloud/case-studies/
                 href: _why-cloud/case-studies.md
                 show_in_menu: false
                 show_in_footer: false
@@ -41,37 +41,37 @@ assigned:
         children:
             -
                 text: Business and Operations
-                permalink: /cloud-solutions/business-and-operations
+                permalink: /cloud-solutions/business-and-operations/
                 href: _cloud-solutions/business-and-operations.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Custom Application and COTS Software Hosting
-                permalink: /cloud-solutions/application-hosting
+                permalink: /cloud-solutions/application-hosting/
                 href: _cloud-solutions/application-hosting.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Customer Support
-                permalink: /cloud-solutions/customer-support
+                permalink: /cloud-solutions/customer-support/
                 href: _cloud-solutions/customer-support.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Telework
-                permalink: /cloud-solutions/telework
+                permalink: /cloud-solutions/telework/
                 href: _cloud-solutions/telework.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Training
-                permalink: /cloud-solutions/training
+                permalink: /cloud-solutions/training/
                 href: _cloud-solutions/training.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Research Tools
-                permalink: /cloud-solutions/research-tools
+                permalink: /cloud-solutions/research-tools/
                 href: _cloud-solutions/research-tools.md
                 show_in_menu: true
                 show_in_footer: false
@@ -85,13 +85,13 @@ assigned:
         children:
             -
                 text: Procurement process
-                permalink: /acquisition/procurement-process
+                permalink: /acquisition/procurement-process/
                 href: pages/acquisition/procurement-process.md
                 show_in_menu: true
                 show_in_footer: false
             -
                 text: Acquisition documents
-                permalink: /acquisition/acquisition-template-documents
+                permalink: /acquisition/acquisition-template-documents/
                 href: pages/acquisition/acquisition-template-documents.md
                 show_in_menu: true
                 show_in_footer: false
@@ -105,7 +105,7 @@ assigned:
         children:
             -
                 text: Success Plans
-                permalink: /implementation/success-plans
+                permalink: /implementation/success-plans/
                 href: pages/implementation/success-plans.md
                 show_in_menu: true
                 show_in_footer: false
@@ -117,7 +117,7 @@ assigned:
                 show_in_footer: false
             -
                 text: Compliance
-                permalink: /implementation/compliance
+                permalink: /implementation/compliance/
                 href: pages/implementation/compliance.md
                 show_in_menu: true
                 show_in_footer: false
@@ -131,7 +131,7 @@ assigned:
         children:
             -
                 text: Community
-                permalink: /support/community
+                permalink: /support/community/
                 href: pages/support/community.md
                 show_in_menu: true
                 show_in_footer: false       
