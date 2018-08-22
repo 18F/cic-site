@@ -17,22 +17,24 @@ layout: base
               </li>
         
         <ul class="usa-sidenav-sub_list">
-        
          {% for child in nav.children %}
           <li>
              {% if child.permalink == page.permalink %}
             <a class="usa-current" href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
+              
+                <ul class="usa-sidenav-sub_list">
+                  {% if child.children %}
+                  {% for grandchild in child.children %}
+                    <li>
+                      <a href="{{ grandchild.relink | prepend: site.baseurl | prepend: child.permalink }}">
+                      {{ grandchild.text }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                {% endif %}
+                </ul>
             {% else %}
-            <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
-            {% endif %}
-            {% if child.children %}
-              <ul class="usa-sidenav-sub_list">
-             {% for grandchild in child.children %}
-                <a href="{{ grandchild.relink | prepend: site.baseurl | prepend: child.permalink }}">
-                  {{ grandchild.text }}
-                </a>
-             {% endfor %}
-             </ul>
+              <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
             {% endif %}
           </li>
          {% endfor %}
