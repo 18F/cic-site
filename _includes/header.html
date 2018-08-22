@@ -59,18 +59,25 @@
           {% for nav in navs %}
            {% if nav.show_in_menu %}
             <li>
+               {% if nav.children %}
               <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-{{ nav.sidenav_ref }}">
                 <span>{{ nav.text }}</span>
               </button>
-               {% if nav.children %}
               <ul id="basic-nav-section-{{ nav.sidenav_ref }}" class="usa-nav-submenu">
+                <li>
+                  <a href="{{ nav.permalink }}">Overview</a>
+                </li>
                 {% for child in nav.children %}
                 <li>
                   <a href="{{ child.permalink }}">{{ child.text }}</a>
                 </li>
                  {% endfor %}
 
-              </ul>
+                </ul>
+               {% else %}
+              <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-{{ nav.sidenav_ref }}">
+                <span>{{ nav.text }}</span>
+              </button>
                {% endif %}
             </li>
              {% endif %}
