@@ -13,7 +13,7 @@ Cloud computing reduces this burden on agencies by reducing the amount of work t
 
 In addition to efficiency, cloud also lets teams be more agile in the ways they work. Traditionally, agencies had a hard limit on their computing power — however many machines they could afford or fit in a server room. But cloud computing works like a utility; it’s easy to raise or lower the amount of power needed, and you only pay for what you use. Instead of taking months to buy new machines or years to build new data centers, teams can simply rent space in someone else’s infrastructure and make adjustments as needed. 
 
-If you’re thinking about getting on the cloud, we can help you get started. Visit the [cloud solutions](/find-cloud-solutions) page to see a list of cloud products and services split up by business function, or learn more about building a business case in our [implementation](/implementation) guidance.
+If you’re thinking about getting on the cloud, we can help you get started. Visit the [cloud solutions]({{ site.baseurl }}/cloud-solutions) page to see a list of cloud products and services split up by business function, or learn more about building a business case in our [implementation]({{ site.baseurl }}/implementation) guidance.
 
 <div class="project-container">
 <div class="usa-grid">

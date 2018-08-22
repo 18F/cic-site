@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Case Studies
-permalink: /why-cloud/case-studies
+permalink: /why-cloud/case-studies/
 sidenav_ref: why-cloud
 ---
 

@@ -29,11 +29,11 @@ assigned:
                 text: Case Studies
                 permalink: /why-cloud/case-studies/
                 href: _why-cloud/case-studies.md
-                show_in_menu: false
+                show_in_menu: true
                 show_in_footer: false
     -
         text: Find Cloud Solutions
-        href: pages/find-cloud-solutions.md
+        href: pages/cloud-solutions.md
         permalink: /cloud-solutions/
         sidenav_ref: solutions
         show_in_menu: true

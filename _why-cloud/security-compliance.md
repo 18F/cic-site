@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Security Compliance
-permalink: why-cloud/security-compliance
+permalink: /why-cloud/security-compliance/
 sidenav_ref: why-cloud
 ---
 

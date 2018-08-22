@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Technical Capabilities
-permalink: why-cloud/technical-capabilities
+permalink: /why-cloud/technical-capabilities/
 sidenav_ref: why-cloud
 ---
 
