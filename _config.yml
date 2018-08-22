@@ -2,11 +2,11 @@
 title: Cloud Information Center
 description: A site for you to learn about cloud!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://federalist-modern-team-template.18f.gov" # the base hostname & protocol for your site
-logo: /assets/img/logo-main.gif
+url: "https://federalist-proxy.app.cloud.gov/18f/cic-site/" # the base hostname & protocol for your site
+logo: /assets/img/gsa_logo.svg
 feature_image: /assets/img/feature-background.jpg
 org_name: 18f
-repo_name: federalist-modern-team-template
+repo_name: cic-site
 
 colors:
   background: '#ffffff'
@@ -31,6 +31,8 @@ colors:
     button:
       background: '#dce4ef'
       text: '#112e51'
+  hero:
+    background: '#e1f3f8'
   footer:
     primary-background: '#f1f1f1'
     secondary-background: '#d6d7d9'
@@ -51,10 +53,9 @@ defaults:
     layout:
       - home
       - page
-      - "project-list"
-      - project
-      - "team-list"
-      - team
+      - "solutions-list"
+      - solution
+
 
 forms:
 - type: newsletter
@@ -72,11 +73,11 @@ forms:
 
 footer:
   links:
-      - text: 'Work'
+      - text: 'Solutions'
         href: '#'
       - text: 'About'
         href: '#'
-  image: /assets/img/gsa-logo-dark.jpg
+  image: /assets/img/gsa_logo.svg
   contact:
     name: GSA
     phonenumber: 1-800-CALL-GOV
@@ -98,11 +99,11 @@ exclude:
   - LICENSE.md
   - README.md
 
-# Inititalize project and team collections
+# Inititalize collections
 collections:
-  projects:
+  why-cloud:
     output: true
-  team:
+  cloud-solutions:
     output: true
 
 wds-version: 1.1.0

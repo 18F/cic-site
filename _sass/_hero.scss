@@ -29,3 +29,17 @@
   font-size: 22px;
   line-height: 30px;
 }
+
+.usa-hero {
+  background-image: none;
+  background-color: $hero-background-color;
+}
+
+.usa-hero-callout {
+  display: inline-block;
+}
+
+.usa-hero .usa-width-one-third {
+  float: left;
+  margin-right: 2em;
+}

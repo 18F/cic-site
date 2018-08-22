@@ -6,37 +6,133 @@ assigned:
         show_in_menu: false
         show_in_footer: false
     -
-        text: About
-        href: pages/about.md
-        permalink: /about/
-        show_in_menu: true
-        show_in_footer: false
-    -
-        text: Work
-        href: pages/projects.md
-        permalink: /projects/
+        text: Why Cloud?
+        href: pages/why-cloud.md
+        sidenav_ref: why-cloud
+        permalink: /why-cloud/
         show_in_menu: true
         show_in_footer: false
         children:
             -
-                text: 'Microloans for Farmers'
-                href: pages/projects/microloans-for-farmers.md
-                show_in_menu: false
+                text: Technical Capabilities
+                permalink: /why-cloud/technical-capabilities/
+                href: _why-cloud/technical-capabilities.md
+                show_in_menu: true
+                show_in_footer: true
+            -
+                text: Security Compliance
+                permalink: /why-cloud/security-compliance/
+                href: _why-cloud/security-compliance.md
+                show_in_menu: true
                 show_in_footer: false
             -
-                text: 'Reducing Summer Melt'
-                href: pages/projects/reducing-summer-melt.md
-                show_in_menu: false
+                text: Case Studies
+                permalink: /why-cloud/case-studies/
+                href: _why-cloud/case-studies.md
+                show_in_menu: true
                 show_in_footer: false
     -
-        text: 'Team'
-        href: pages/team.md
-        permalink: /team/
+        text: Find Cloud Solutions
+        href: pages/cloud-solutions.md
+        permalink: /cloud-solutions/
+        sidenav_ref: solutions
         show_in_menu: true
         show_in_footer: false
+        children:
+            -
+                text: Business and Operations
+                permalink: /cloud-solutions/business-and-operations/
+                href: _cloud-solutions/business-and-operations.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Custom Application and COTS Software Hosting
+                permalink: /cloud-solutions/application-hosting/
+                href: _cloud-solutions/application-hosting.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Customer Support
+                permalink: /cloud-solutions/customer-support/
+                href: _cloud-solutions/customer-support.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Telework
+                permalink: /cloud-solutions/telework/
+                href: _cloud-solutions/telework.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Training
+                permalink: /cloud-solutions/training/
+                href: _cloud-solutions/training.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Research Tools
+                permalink: /cloud-solutions/research-tools/
+                href: _cloud-solutions/research-tools.md
+                show_in_menu: true
+                show_in_footer: false
     -
-        text: 'Project data'
-        href: _data/projects.yml
-        show_in_menu: false
+        text: Acquisition
+        href: pages/acquisition.md
+        permalink: /acquisition/
+        sidenav_ref: acquisition
+        show_in_menu: true
         show_in_footer: false
+        children:
+            -
+                text: Procurement process
+                permalink: /acquisition/procurement-process/
+                href: pages/acquisition/procurement-process.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Acquisition documents
+                permalink: /acquisition/acquisition-template-documents/
+                href: pages/acquisition/acquisition-template-documents.md
+                show_in_menu: true
+                show_in_footer: false
+    -
+        text: Implementation
+        href: pages/implementation.md
+        permalink: /implementation/
+        sidenav_ref: implementation
+        show_in_menu: true
+        show_in_footer: false
+        children:
+            -
+                text: Success Plans
+                permalink: /implementation/success-plans/
+                href: pages/implementation/success-plans.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Maintenance
+                permalink: /implementation/maintenance/
+                href: pages/implementation/maintenance.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Compliance
+                permalink: /implementation/compliance/
+                href: pages/implementation/compliance.md
+                show_in_menu: true
+                show_in_footer: false
+    -
+        text: Support
+        href: pages/support.md
+        permalink: /support/
+        sidenav_ref: support
+        show_in_menu: true
+        show_in_footer: false 
+        children:
+            -
+                text: Community
+                permalink: /support/community/
+                href: pages/support/community.md
+                show_in_menu: true
+                show_in_footer: false       
 unassigned: []
