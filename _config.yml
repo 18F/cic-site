@@ -3,7 +3,7 @@ title: Cloud Information Center
 description: A site for you to learn about cloud!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://federalist-proxy.app.cloud.gov/preview/18f/cic-site/implement-sitemap-content/" # the base hostname & protocol for your site
-logo: /assets/img/logo-main.gif
+logo: /assets/img/gsa_logo.svg
 feature_image: /assets/img/feature-background.jpg
 org_name: 18f
 repo_name: cic-site
@@ -75,7 +75,7 @@ footer:
         href: '#'
       - text: 'About'
         href: '#'
-  image: /assets/img/gsa-logo-dark.jpg
+  image: /assets/img/gsa_logo.svg
   contact:
     name: GSA
     phonenumber: 1-800-CALL-GOV

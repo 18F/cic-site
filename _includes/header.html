@@ -42,7 +42,9 @@
       <div class="usa-logo" id="basic-logo">
         <em class="usa-logo-text">
           <a href="{{ site.baseurl }}/" title="Home" aria-label="Home">
-            Cloud Information Center
+            {% if site.logo %}
+            <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}"> {{site.title}}
+            {% endif %}
           </a>
         </em>
       </div>

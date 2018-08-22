@@ -57,6 +57,14 @@ a {
   outline: none;
 }
 
+.usa-logo img {
+  max-width: 6rem;
+}
+
+.usa-logo-text {
+  font-size: 2rem
+}
+
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
     position: relative;
