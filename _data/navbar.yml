@@ -48,16 +48,22 @@ assigned:
                 children:
                     - 
                         text: Business management
+                        rellink: business-management
                     -
                         text: Customer relationship management
+                        relink: customer-relationship-management
                     -
                         text: Email
+                        relink: email/
                     -
                         text: Human resources
+                        relink: human-resources
                     -
                         text: Public and media relations
+                        relink: public-and-media-relations
                     -
                         text: Telecommunications
+                        relink: telecommunications
             -
                 text: Custom Application and COTS Software Hosting
                 permalink: /cloud-solutions/application-hosting/
