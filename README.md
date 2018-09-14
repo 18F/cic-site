@@ -81,6 +81,10 @@ link_cards:
   - 
     title: Item 2 Title
     summary: Summary of the item 2
+    permalink: /item-2-link/
+  - 
+    title: Item 3 without link
+    summary: A summary of the third item that has no link
 
 ```
 ## 18F Open Source Policy
