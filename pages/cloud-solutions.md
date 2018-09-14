@@ -2,7 +2,7 @@
 layout: overview-page
 title: Find Cloud Solutions
 permalink: /cloud-solutions/
-sidenav_ref: solutions
+sidenav_ref: cloud-solutions
 link_cards:
   - 
     title: Acquisition
