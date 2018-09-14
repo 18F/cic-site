@@ -139,13 +139,13 @@ assigned:
                 children:
                     -
                         text: Staffing Resources
-                        relink: staffing-resources
+                        relink: staffing-resources/
                     -
                         text: Training
-                        relink: training
+                        relink: training/
                     -
                         text: Change management
-                        relink: change-management
+                        relink: change-management/
             # -
             #     text: Maintenance
             #     permalink: /implementation/maintenance/

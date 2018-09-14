@@ -24,9 +24,17 @@
                     {% if child.children and child.permalink == page.parent or child.permalink == page.permalink %}
                     {% for grandchild in child.children %}
                     <li>
-                        <a href="{{ grandchild.relink | prepend: child.permalink | prepend: site.baseurl }}">
-                            {{ grandchild.text }}
-                        </a>
+                        {% assign grandchild_link = grandchild.per | prepend: child.permalink %}
+                        {% if grandchild_link == page.permalink %}
+                            <a class="usa-current" href="{{  grandchild_link | prepend: site.baseurl }}">
+                                {{ grandchild.text }}
+                            </a>
+                        {% else %}
+                            <a href="{{  grandchild_link | prepend: site.baseurl }}">
+                                {{ grandchild.text }}
+                            </a>
+                        {% endif %}
+
                     </li>
                     {% endfor %}
                     {% endif %}
