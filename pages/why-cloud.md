@@ -1,6 +1,6 @@
 ---
-layout: sidenav-page
-title: Why Cloud?
+layout: overview-page
+title: Overview
 permalink: /why-cloud/
 sidenav_ref: why-cloud
 ---

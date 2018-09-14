@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: overview-page
 title: Implementation
 permalink: /implementation/
 ---

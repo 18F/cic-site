@@ -15,6 +15,12 @@ assigned:
         helper_text: Overview of benefits
         children:
             -
+                text: Basics
+                permalink: /why-cloud/basics/
+                href: _why-cloud/basics.md
+                show_in_menu: true
+                show_in_footer: true
+            -
                 text: Technical Capabilities
                 permalink: /why-cloud/technical-capabilities/
                 href: _why-cloud/technical-capabilities.md
@@ -24,12 +30,6 @@ assigned:
                 text: Security Compliance
                 permalink: /why-cloud/security-compliance/
                 href: _why-cloud/security-compliance.md
-                show_in_menu: true
-                show_in_footer: false
-            -
-                text: Case Studies
-                permalink: /why-cloud/case-studies/
-                href: _why-cloud/case-studies.md
                 show_in_menu: true
                 show_in_footer: false
     -
@@ -152,11 +152,5 @@ assigned:
         show_in_menu: true
         show_in_footer: false 
         helper_text: Help from real people
-        children:
-            -
-                text: Community
-                permalink: /support/community/
-                href: pages/support/community.md
-                show_in_menu: true
-                show_in_footer: false       
+            
 unassigned: []
