@@ -80,6 +80,10 @@ assigned:
                 href: pages/acquisition/procurement-process.md
                 show_in_menu: true
                 show_in_footer: false
+                children:
+                    - text: Pricing
+                      relink: pricing/
+
             -
                 text: Acquisition documents
                 permalink: /acquisition/acquisition-template-documents/
@@ -88,8 +92,20 @@ assigned:
                 show_in_footer: false
                 children:
                     - 
-                        text: Statment of objectives
-                        permalink: statment-of-objectives
+                        text: Statment of objectives (SOO)
+                        relink: statment-of-objectives/
+                    -
+                        text: Statement of Work (SOW)
+                        relink: statement-of-work/
+                    -
+                        text: Request for Information (RFI)
+                        relink: request-for-information/
+                    -
+                        text: Request for Proposal (RFP)
+                        relink: request-for-proposals/
+                    -
+                        text: Blanket Purchase Agreement (BPA)
+                        relink: blanket-purchase-agreement/
     -
         text: Implementation
         href: pages/implementation.md

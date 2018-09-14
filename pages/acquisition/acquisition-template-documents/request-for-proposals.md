@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
-title: Statement of Objectives (SOO)
-permalink: /acquisition/acquisition-template-documents/statement-of-objectives/
+title: Request for Proposals (RFP)
+permalink: /acquisition/acquisition-template-documents/request-for-proposals/
 sidenav_ref: acquisition
 parent: /acquisition/acquisition-template-documents/
 ---

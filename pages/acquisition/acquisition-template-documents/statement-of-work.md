@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
-title: Statement of Objectives (SOO)
-permalink: /acquisition/acquisition-template-documents/statement-of-objectives/
+title: Statement of Work (SOW)
+permalink: /acquisition/acquisition-template-documents/statement-of-work/
 sidenav_ref: acquisition
 parent: /acquisition/acquisition-template-documents/
 ---
