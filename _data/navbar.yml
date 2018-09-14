@@ -145,7 +145,7 @@ assigned:
                         relink: training
                     -
                         text: Change management
-                        relink: training
+                        relink: change-management
             # -
             #     text: Maintenance
             #     permalink: /implementation/maintenance/
