@@ -24,7 +24,7 @@
                     {% if child.children and child.permalink == page.parent or child.permalink == page.permalink %}
                     {% for grandchild in child.children %}
                     <li>
-                        {% assign grandchild_link = grandchild.per | prepend: child.permalink %}
+                        {% assign grandchild_link = grandchild.relink | prepend: child.permalink %}
                         {% if grandchild_link == page.permalink %}
                             <a class="usa-current" href="{{  grandchild_link | prepend: site.baseurl }}">
                                 {{ grandchild.text }}
