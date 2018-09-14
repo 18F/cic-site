@@ -2,7 +2,7 @@
     box-shadow: 0 0 0 1px #d6d7d9;
     margin-bottom: 3rem;
     text-decoration: none;
-    min-height: 215px;
+    min-height: 175px;
 
     &:hover {
         box-shadow: 0 0 0 1px $card-heading-color;
@@ -34,7 +34,7 @@
 }
 
 .card-banner {
-  margin: 2.5rem;
+  padding: 0 2.5rem;
   @media all and (min-width: $on-laptop) {
     flex: 1 0 auto;
   }
@@ -47,6 +47,7 @@
 
 .card-summary {
   font-size: 16px;
+  margin-top: 0.7rem;
   margin-bottom: 0;
 
   em {
