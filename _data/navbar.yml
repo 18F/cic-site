@@ -36,66 +36,35 @@ assigned:
         text: Find Cloud Solutions
         href: pages/cloud-solutions.md
         permalink: /cloud-solutions/
-        sidenav_ref: solutions
+        sidenav_ref: cloud-solutions
         show_in_menu: true
         show_in_footer: false
         helper_text: Support your mission
         children:
             -
-                text: Business and Operations
-                permalink: /cloud-solutions/business-and-operations/
-                href: _cloud-solutions/business-and-operations.md
-                show_in_menu: true
-                show_in_footer: false
-                children:
-                    - 
-                        text: Business management
-                        relink: business-management
-                    -
-                        text: Customer relationship management
-                        relink: customer-relationship-management
-                    -
-                        text: Email
-                        relink: email/
-                    -
-                        text: Human resources
-                        relink: human-resources
-                    -
-                        text: Public and media relations
-                        relink: public-and-media-relations
-                    -
-                        text: Telecommunications
-                        relink: telecommunications
-            -
-                text: Custom Application and COTS Software Hosting
-                permalink: /cloud-solutions/application-hosting/
-                href: _cloud-solutions/application-hosting.md
+                text: Application Development
+                permalink: /cloud-solutions/application-development/
+                href: _cloud-solutions/application-development.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Customer Support
-                permalink: /cloud-solutions/customer-support/
-                href: _cloud-solutions/customer-support.md
+                text: Research and Analytics
+                permalink: /cloud-solutions/research-and-analytics/
+                href: _cloud-solutions/research-and-analytics.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Telework
-                permalink: /cloud-solutions/telework/
-                href: _cloud-solutions/telework.md
+                text: Identity and Security
+                permalink: /cloud-solutions/identity-and-security/
+                href: _cloud-solutions/identity-and-security.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Training
-                permalink: /cloud-solutions/training/
-                href: _cloud-solutions/training.md
+                text: Collaboration and Productivity
+                permalink: /cloud-solutions/collaboration-and-productivity/
+                href: _cloud-solutions/collaboration-and-productivity.md
                 show_in_menu: true
-                show_in_footer: false
-            -
-                text: Research Tools
-                permalink: /cloud-solutions/research-tools/
-                href: _cloud-solutions/research-tools.md
-                show_in_menu: true
-                show_in_footer: false
+                show_in_footer: falses
     -
         text: Acquisition
         href: pages/acquisition.md
