@@ -3,6 +3,19 @@ layout: overview-page
 title: Overview
 permalink: /why-cloud/
 sidenav_ref: why-cloud
+link_cards:
+  - 
+    title: Cloud solutions
+    summary: What solutions are available
+    permalink: /cloud-solutions/
+  - 
+    title: Acquisition
+    summary: How to compare vendors and procure the right solution
+    permalink: /acquisition/
+  - 
+    title: Implementation
+    summary: How to build a cloud-ready culture at your agency
+    permalink: /implementation/
 ---
 
 For the better part of a decade, the Cloud First policy — government’s mandate to increase cloud adoption — has advised agencies on IT modernization. But while policy guidance has been clear, the reasons behind the mandate have not always been. 
@@ -15,7 +28,7 @@ In addition to efficiency, cloud also lets teams be more agile in the ways they 
 
 If you’re thinking about getting on the cloud, we can help you get started. Visit the [cloud solutions]({{ site.baseurl }}/cloud-solutions) page to see a list of cloud products and services split up by business function, or learn more about building a business case in our [implementation]({{ site.baseurl }}/implementation) guidance.
 
-<div class="project-container">
+<!-- <div class="project-container">
 <div class="usa-grid">
     <article class="card usa-width-one-third">
       <a class="card-link" href="{{ site.baseurl }}/cloud-solutions" aria-hidden="true" tabindex="-1"></a>
@@ -72,5 +85,5 @@ If you’re thinking about getting on the cloud, we can help you get started. Vi
       </div>
     </article>
   </div>
-</div>
+</div> -->
 

@@ -3,6 +3,7 @@ layout: sidenav-page
 title: Statement of Objectives (SOO) Templates
 permalink: /acquisition/acquisition-template-documents/statement-of-objectives
 sidenav_ref: acquisition
+parent: /acquisition/acquisition-template-documents/
 ---
 
 Government can use these statement of objectives (SOO) to move legacy systems to the cloud more efficiently, and better plan for developing new cloud applications.
