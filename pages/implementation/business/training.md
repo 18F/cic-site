@@ -1,8 +1,7 @@
 ---
 layout: sidenav-page
-title: Change Management
-permalink: /implementation/business/change-management
+title: Training
+permalink: /implementation/business/training
 sidenav_ref: implementation
 parent: /implementation/business/
 ---
-			
