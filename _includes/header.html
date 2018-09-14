@@ -36,7 +36,7 @@
   </div>
 </section>
 
-<header class="usa-header usa-header-basic" role="banner">
+<header class="usa-header usa-header-extended" role="banner">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="basic-logo">
@@ -85,19 +85,33 @@
              {% endif %}
           {% endfor %}
       </ul>
-      <form class="usa-search usa-search-small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
-        <div role="search">
-        <input name="utf8" type="hidden" value="&#x2713;" />
+      <div class="usa-nav-secondary">
+        <form class="usa-search usa-search-small js-search-form" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8"
+          method="get">
+          <div role="search">
+            <input name="utf8" type="hidden" value="&#x2713;" />
         
-          <input type="hidden" name="affiliate" id="affiliate" value="gsa_cic" />
-          <label class="usa-sr-only" for="query">Search small</label>
-          <input type="search" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
-          <button type="submit" name="commit">
-            <span class="usa-sr-only">Search</span>
-          </button>
-        </div>
-      </form>
-    </nav>
+            <input type="hidden" name="affiliate" id="affiliate" value="gsa_cic" />
+            <label class="usa-sr-only" for="query">Search small</label>
+            <input type="search" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
+            <button type="submit" name="commit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+      
+      
+        <ul class="usa-unstyled-list usa-nav-secondary-links">
+      
+          <li class="js-search-button-container">
+            <button class="usa-header-search-button js-search-button">Search</button>
+          </li>
+      
+        </ul>
+      </div>
+      
+      </div>
+      </nav>
   </div>
 </header>
 <div class="usa-overlay"></div>
