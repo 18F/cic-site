@@ -12,6 +12,7 @@ assigned:
         permalink: /why-cloud/
         show_in_menu: true
         show_in_footer: false
+        helper_text: Overview of benefits
         children:
             -
                 text: Technical Capabilities
@@ -38,6 +39,7 @@ assigned:
         sidenav_ref: solutions
         show_in_menu: true
         show_in_footer: false
+        helper_text: Support your mission
         children:
             -
                 text: Business and Operations
@@ -101,6 +103,7 @@ assigned:
         sidenav_ref: acquisition
         show_in_menu: true
         show_in_footer: false
+        helper_text: What you need to know
         children:
             -
                 text: Procurement process
@@ -121,6 +124,7 @@ assigned:
         sidenav_ref: implementation
         show_in_menu: true
         show_in_footer: false
+        helper_text: How to's
         children:
             -
                 text: Success Plans
@@ -147,6 +151,7 @@ assigned:
         sidenav_ref: support
         show_in_menu: true
         show_in_footer: false 
+        helper_text: Help from real people
         children:
             -
                 text: Community

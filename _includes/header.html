@@ -64,6 +64,9 @@
                {% if nav.children %}
               <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-{{ nav.sidenav_ref }}">
                 <span>{{ nav.text }}</span>
+                {% if nav.helper_text %}
+                  <span class="helper">{{ nav.helper_text }}</span>
+                {% endif %}
               </button>
               <ul id="basic-nav-section-{{ nav.sidenav_ref }}" class="usa-nav-submenu">
                 <li>
