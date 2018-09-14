@@ -3,64 +3,7 @@ layout: base
 ---
 
 <div class="usa-grid usa-section usa-content">
-  <aside class="usa-width-one-fourth">
-    <ul class="usa-sidenav-list">
-     {% assign navs = site.data.navbar.assigned %}
-     {% for nav in navs %} 
-      {% if nav.sidenav_ref == page.sidenav_ref %}
-              <li>
-                {% if page.permalink == nav.permalink %}
-                <a class="usa-current" href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text}}</a>
-                {% else %}
-                <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text}}</a>
-                {% endif %}
-              </li>
-        
-        <ul class="usa-sidenav-sub_list">
-         {% for child in nav.children %}
-          <li>
-             {% if child.permalink == page.permalink %}
-              <a class="usa-current" href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
-              
-                <ul class="usa-sidenav-sub_list">
-                  {% if child.children %}
-                  {% for grandchild in child.children %}
-                    <li>
-                      <a href="{{ grandchild.rellink | | prepend: child.permalink | prepend: site.baseurl }}">
-                      {{ grandchild.text }}
-                      </a>
-                    </li>
-                  {% endfor %}
-                {% endif %}
-                </ul>
-            {% elseif child.children %}
-              {% for grandchild in child.children %}
-              {% endfor %}
-              {% if display_grandchildren %}
-              <ul class="usa-sidenav-sub_list">
-                {% for grandchild in child.children %}
-                <li>
-                  <a href="{{ grandchild.rellink | prepend: child.permalink | prepend: site.baseurl }}">
-                    {{ grandchild.text }}
-                  </a>
-                </li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            {% else %}
-              <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
-            {% endif %}
-          </li>
-         {% endfor %}
-        </ul>
-        
-              
-              
-        {% endif %} 
-      {% endfor %}
-
-    </ul>
-  </aside>
+  {% include sidebar.html %}
   <div class="usa-width-three-fourths usa-content" id="main" tabindex="-1">
     <h1>{{ page.title }}</h1>
     {% if page.image %}

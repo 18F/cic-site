@@ -3,6 +3,11 @@ layout: overview-page
 title: Overview
 permalink: /why-cloud/
 sidenav_ref: why-cloud
+link_cards:
+  - 
+    title: Change Management
+    summary: Building buy-in and bringing people along
+    link: /implementation/success-plans#change-management
 ---
 
 For the better part of a decade, the Cloud First policy — government’s mandate to increase cloud adoption — has advised agencies on IT modernization. But while policy guidance has been clear, the reasons behind the mandate have not always been. 

@@ -50,7 +50,7 @@ assigned:
                 children:
                     - 
                         text: Business management
-                        rellink: business-management
+                        relink: business-management
                     -
                         text: Customer relationship management
                         relink: customer-relationship-management
@@ -120,7 +120,7 @@ assigned:
                 children:
                     - 
                         text: Statment of objectives
-                        rellink: statment-of-objectives
+                        permalink: statment-of-objectives
     -
         text: Implementation
         href: pages/implementation.md
@@ -139,19 +139,25 @@ assigned:
                 children:
                     -
                         text: Staffing Resources
-                        rellink: staffing-resources
-            -
-                text: Maintenance
-                permalink: /implementation/maintenance/
-                href: pages/implementation/maintenance.md
-                show_in_menu: true
-                show_in_footer: false
-            -
-                text: Compliance
-                permalink: /implementation/compliance/
-                href: pages/implementation/compliance.md
-                show_in_menu: true
-                show_in_footer: false
+                        relink: staffing-resources
+                    -
+                        text: Training
+                        relink: training
+                    -
+                        text: Change management
+                        relink: training
+            # -
+            #     text: Maintenance
+            #     permalink: /implementation/maintenance/
+            #     href: pages/implementation/maintenance.md
+            #     show_in_menu: true
+            #     show_in_footer: false
+            # -
+            #     text: Compliance
+            #     permalink: /implementation/compliance/
+            #     href: pages/implementation/compliance.md
+            #     show_in_menu: true
+            #     show_in_footer: false
     -
         text: Support
         href: pages/support.md
