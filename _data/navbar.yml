@@ -117,6 +117,10 @@ assigned:
                 href: pages/acquisition/acquisition-template-documents.md
                 show_in_menu: true
                 show_in_footer: false
+                children:
+                    - 
+                        text: Statment of objectives
+                        rellink: statment-of-objectives
     -
         text: Implementation
         href: pages/implementation.md
@@ -127,11 +131,15 @@ assigned:
         helper_text: How to's
         children:
             -
-                text: Success Plans
-                permalink: /implementation/success-plans/
-                href: pages/implementation/success-plans.md
+                text: Business
+                permalink: /implementation/business/
+                href: pages/implementation/business.md
                 show_in_menu: true
                 show_in_footer: false
+                children:
+                    -
+                        text: Staffing Resources
+                        rellink: staffing-resources
             -
                 text: Maintenance
                 permalink: /implementation/maintenance/
@@ -152,5 +160,5 @@ assigned:
         show_in_menu: true
         show_in_footer: false 
         helper_text: Help from real people
-            
+
 unassigned: []

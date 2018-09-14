@@ -26,7 +26,7 @@ layout: base
                   {% if child.children %}
                   {% for grandchild in child.children %}
                     <li>
-                      <a href="{{ grandchild.relink | prepend: site.baseurl | prepend: child.permalink }}">
+                      <a href="{{ grandchild.rellink | prepend: site.baseurl | prepend: child.permalink }}">
                       {{ grandchild.text }}
                       </a>
                     </li>
