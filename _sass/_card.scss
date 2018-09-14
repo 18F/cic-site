@@ -1,0 +1,55 @@
+.card {
+    box-shadow: 0 0 0 1px #d6d7d9;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    min-height: 215px;
+
+    &:hover {
+        box-shadow: 0 0 0 1px $card-heading-color;
+    }
+
+    &:active {
+        box-shadow: #3e94cf;
+    }
+    background: $footer-primary-background-color;
+}
+
+.project-container .usa-grid {
+    margin: auto 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-link {
+    padding: 5px;
+    text-decoration: none;
+}
+
+ @media screen and (min-width: 600px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 102.5%;
+  }
+}
+
+.card-banner {
+  margin: 2.5rem;
+  @media all and (min-width: $on-laptop) {
+    flex: 1 0 auto;
+  }
+}
+
+.card-description.card-description {
+  color: $card-heading-color;
+  margin-top: 0;
+}
+
+.card-summary {
+  font-size: 16px;
+  margin-bottom: 0;
+
+  em {
+    font-style: normal;
+  }
+}
