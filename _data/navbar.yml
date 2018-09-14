@@ -131,18 +131,28 @@ assigned:
                     -
                         text: Change management
                         relink: change-management/
-            # -
-            #     text: Maintenance
-            #     permalink: /implementation/maintenance/
-            #     href: pages/implementation/maintenance.md
-            #     show_in_menu: true
-            #     show_in_footer: false
-            # -
-            #     text: Compliance
-            #     permalink: /implementation/compliance/
-            #     href: pages/implementation/compliance.md
-            #     show_in_menu: true
-            #     show_in_footer: false
+            -
+                text: Technical
+                permalink: /implementation/technical/
+                href: pages/implementation/technical.md
+                show_in_menu: true
+                show_in_footer: false
+                children:
+                    - 
+                        text: Compliance
+                        relink: compliance/
+                    - 
+                        text: Maintenance
+                        relink: maintenance/
+                    - 
+                        text: Migration
+                        relink: migration/
+                    - 
+                        text: Scaling
+                        relink: scaling/
+                    - 
+                        text: Test environments
+                        relink: test-environments/
     -
         text: Support
         href: pages/support.md
