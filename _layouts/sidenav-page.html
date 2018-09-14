@@ -20,19 +20,33 @@ layout: base
          {% for child in nav.children %}
           <li>
              {% if child.permalink == page.permalink %}
-            <a class="usa-current" href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
+              <a class="usa-current" href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
               
                 <ul class="usa-sidenav-sub_list">
                   {% if child.children %}
                   {% for grandchild in child.children %}
                     <li>
-                      <a href="{{ grandchild.rellink | prepend: site.baseurl | prepend: child.permalink }}">
+                      <a href="{{ grandchild.rellink | | prepend: child.permalink | prepend: site.baseurl }}">
                       {{ grandchild.text }}
                       </a>
                     </li>
                   {% endfor %}
                 {% endif %}
                 </ul>
+            {% elseif child.children %}
+              {% for grandchild in child.children %}
+              {% endfor %}
+              {% if display_grandchildren %}
+              <ul class="usa-sidenav-sub_list">
+                {% for grandchild in child.children %}
+                <li>
+                  <a href="{{ grandchild.rellink | prepend: child.permalink | prepend: site.baseurl }}">
+                    {{ grandchild.text }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             {% else %}
               <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text}}</a>
             {% endif %}
