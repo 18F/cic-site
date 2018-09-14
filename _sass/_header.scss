@@ -1,0 +1,23 @@
+.usa-nav-primary .helper {
+    font-weight: normal;
+    display: block;
+    margin-top: 5px;
+}
+
+.usa-nav-link:hover span {
+     border-bottom: none;
+}
+
+.usa-nav-link:hover span.helper:hover {
+     border-bottom: 0.7rem solid #0071bc;
+}
+
+.usa-nav-primary button[aria-expanded=true] span {
+    border-bottom: none;
+}
+
+.usa-nav-primary button[aria-expanded=true] span.helper {
+    border-bottom: none;
+}
+
+   

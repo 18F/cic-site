@@ -12,9 +12,6 @@ button,
 [type="image"] {
   background-color: $button-color;
   color: $button-text-color;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 .usa-button:hover,
 .usa-button-primary:hover,
@@ -29,20 +26,4 @@ button:hover,
 [type="reset"]:hover,
 [type="image"]:hover {
   background-color: $button-hover-color;
-}
-@media (max-width: 500px) {
-  .usa-button,
-  .usa-button-primary,
-  .usa-button:visited,
-  .usa-button-primary:visited,
-  button,
-  [type="button"],
-  [type="submit"],
-  [type="reset"],
-  [type="button"],
-  [type="submit"],
-  [type="reset"],
-  [type="image"] {
-    width: auto;
-  }
 }
