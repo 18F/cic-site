@@ -24,9 +24,6 @@
   color: $background-color;
 }
 
-// .usa-nav-primary {
-//   padding-top: 1.9em;
-// }
 
 .usa-nav-primary .helper {
     font-weight: normal;
@@ -35,17 +32,27 @@
     padding-bottom: 1.9rem;
 }
 
-
-
+.usa-nav-primary > li > a .helper {
+  padding-bottom: 0;
+}
 
 .usa-nav-link:hover span {
      border-bottom: none;
-     padding-bottom: 0;
 }
 
 .usa-nav-link:hover span.helper {
      border-bottom: 0.7rem solid #0071bc;
     //  padding-bottom: 0.9rem;
+}
+
+.usa-nav-primary button {
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.usa-nav-primary > li > a.usa-nav-link {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .usa-nav-primary button[aria-expanded=true] span {
