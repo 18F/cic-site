@@ -24,7 +24,7 @@
                     {% if child.children and child.permalink == page.parent or child.permalink == page.permalink %}
                     {% for grandchild in child.children %}
                     <li>
-                        <a href="{{ grandchild.relink | prepend: site.baseurl | prepend: child.permalink }}">
+                        <a href="{{ grandchild.relink | prepend: child.permalink | prepend: site.baseurl }}">
                             {{ grandchild.text }}
                         </a>
                     </li>
