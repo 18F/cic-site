@@ -93,7 +93,7 @@ assigned:
                 children:
                     - 
                         text: Statment of objectives (SOO)
-                        relink: statment-of-objectives/
+                        relink: statement-of-objectives/
                     -
                         text: Statement of Work (SOW)
                         relink: statement-of-work/
