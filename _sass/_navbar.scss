@@ -1,9 +1,21 @@
-@media all and (min-width: 951px) {
-  .usa-header-basic .usa-navbar {
-    // this affects the size of the logo and also the mobile menu nav
-    width: 30%;
+@media only screen and (min-width: 951px) {
+  .usa-banner {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+  }
+  .usa-header-extended {
+    position: fixed;
+    top: 22px;
+    background: $background-color;
+  }
+
+  .main-content {
+    margin-top: 215px;
   }
 }
+
 
 @media all and (max-width: 951px) {
   #logo img {
@@ -63,4 +75,6 @@
 .usa-nav-primary button[aria-expanded=true] span.helper {
     border-bottom: 0.7rem solid #0071bc;
 }
+
+
 

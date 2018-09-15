@@ -14,10 +14,15 @@
     background: $footer-primary-background-color;
 }
 
+.project-container {
+  width: 100%;
+}
+
 .project-container .usa-grid {
     margin: auto 0;
     padding-left: 0;
     padding-right: 0;
+    width: 100%;
 }
 
 .card-link {
