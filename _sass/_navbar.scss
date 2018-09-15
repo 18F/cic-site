@@ -9,6 +9,26 @@
     position: fixed;
     top: 22px;
     background: $background-color;
+    transition: all 0.25s ease;
+
+    &.scrolled {
+      .usa-logo-text {
+        font-size: 2rem;
+      }
+      .usa-logo {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+      }
+
+      img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+    .usa-header-extended .usa-nav-link
+     {
+       margin-top: 1rem;
+     }
   }
 
   .main-content {
@@ -18,7 +38,7 @@
 
 
 @media all and (max-width: 951px) {
-  #logo img {
+  .usa-logo img {
     // keep header img from overflowing menu bar
     max-height: 3.7rem;
   }
