@@ -18,15 +18,36 @@ link_cards:
     permalink: /implementation/
 ---
 
-For the better part of a decade, the Cloud First policy — government’s mandate to increase cloud adoption — has advised agencies on IT modernization. But while policy guidance has been clear, the reasons behind the mandate have not always been. 
+Why is government so focused on cloud adoption? It’s because cloud provides a new model of IT delivery — one that can save agencies time, effort, labor, and worry. There are many benefits to cloud computing, but below are some of the most commonly cited.
 
-Until recently, agencies had to maintain their own software (applications, programs, etc.) and hardware (servers, workstations, etc.) on-premises. Keeping these systems running required significant time, effort and cost; any time something broke, became obsolete, or no longer met requirements, it was the agency’s job to fix it or procure something new. 
+## You’re responsible for less
 
-Cloud computing reduces this burden on agencies by reducing the amount of work that needs to be done on-prem. Tasks like maintaining servers or updating software can be contracted out to organizations that specialize in these tasks — letting government teams focus their efforts on providing reliable, innovative services and meeting mission goals.
+Before cloud computing, if you wanted compute, storage, and other IT services you first needed to buy everything yourself: physical servers, network equipment, racks, cabling, etc. Then in a secure, air conditioned and climate controlled room (something you had to figure out yourself), you would take your recently bought IT equipment and unpack it, install it, connect it, configure it, assign it, manage it, and monitor it. When something broke, it was your job to fix it; when something became obsolete, it was your job to update it. 
 
-In addition to efficiency, cloud also lets teams be more agile in the ways they work. Traditionally, agencies had a hard limit on their computing power — however many machines they could afford or fit in a server room. But cloud computing works like a utility; it’s easy to raise or lower the amount of power needed, and you only pay for what you use. Instead of taking months to buy new machines or years to build new data centers, teams can simply rent space in someone else’s infrastructure and make adjustments as needed. 
+With cloud computing, your organization can provision powerful compute, storage, and other IT services running in the data centers of cloud service providers (CSPs). Rather than buy and manage everything yourself, you can simply rent — the cloud is just someone else’s computer. 
 
-If you’re thinking about getting on the cloud, we can help you get started. Visit the [cloud solutions]({{ site.baseurl }}/cloud-solutions) page to see a list of cloud products and services split up by business function, or learn more about building a business case in our [implementation]({{ site.baseurl }}/implementation) guidance.
+## You benefit from economies of scale
+
+An individual agency can never match the level of scale that a large CSP can — and nor should they want to. Just as it’s your job to deliver on mission objectives, it’s a CSP’s job to build, maintain, and optimize infrastructure across their networks.
+
+The economies of scale available with the cloud allows CSPs to purchase and refresh large volumes of infrastructure constantly and at very low costs. Customers then reap the benefits of decreasing cloud costs, increased performance, better security from improved infrastructure, and enhanced functionality through system-wide innovation.
+
+## You can optimize your entire IT portfolio
+
+A cloud readiness assessment is an important part of any cloud migration strategy. During that assessment, you can evaluate the usefulness (how often is each system used, and is it even aligned with the business anymore?) and repetitiveness of functionality (are several systems performing the same function across the enterprise?) in your application layer. This evaluation can help to determine what should be ported to the cloud, what should be consolidated, and what should be shut down entirely.
+
+Because of cloud’s functionality, this kind of assessment can continue post-migration. You may be able to get new insights about system usage, composition, and structure via your CSP’s tools — insight that you may not already have from your existing data centers. 
+
+Finally, application owners want to evaluate new modernization opportunities which are not available with a traditional data center, such as serverless architectures, where organizations are charged  by the number and duration of a method call  (e.g. microservices charged per every 100 ms). Serverless architectures allow methods to be chained together based upon different triggers to create more complex applications. In addition, such systems can be honed to ensure that methods are compartmentalized enough to deliver maximum usability.
+
+## You can reduce your backlog
+
+In traditional IT environments, servers are a bottleneck because they limit resources based on costs, security controls, or the level of operations staffing. Virtualization significantly reduces that barrier, and true cloud deployments reduce it more — making it easier to get server support for your backlog of development projects, proofs-of-concept, pilots, and testing environments. Note: while faster development times are a plus, organizations need to also account for any resultant increased costs. You may benefit by stressing value to senior leadership, in addition to cost (e.g., spend 10% more, but get 50% more in delivery).
+
+## You may (eventually) make cost savings
+
+Many IT leaders say that the number one business driver for migrating to the cloud is a better return on investment (ROI), but it can be difficult to gauge ROI if your current setup isn’t priced at service levels. Even if you can gauge ROI, due to the cost of migration itself it might take years to realize a positive ROI — and those savings might be the result of pruning inefficiencies during the migration itself. Other indicators, like the ones listed above, are better for your business case or for convincing stakeholders within your organization to invest in cloud.
+
 
 <!-- <div class="project-container">
 <div class="usa-grid">
