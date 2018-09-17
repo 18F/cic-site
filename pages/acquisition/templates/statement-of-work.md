@@ -1,9 +1,9 @@
 ---
 layout: sidenav-page
 title: Statement of Work (SOW)
-permalink: /acquisition/acquisition-template-documents/statement-of-work/
+permalink: /acquisition/templates/statement-of-work/
 sidenav_ref: acquisition
-parent: /acquisition/acquisition-template-documents/
+parent: /acquisition/templates/
 ---
 
 add stuff
