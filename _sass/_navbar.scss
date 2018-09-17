@@ -80,7 +80,7 @@
     }
   }
 
-  &[aria-expanded=true] {
+  button[aria-expanded=true] {
     span {
       border-bottom: none;
       padding-bottom: 0.9rem;
@@ -88,6 +88,11 @@
 
     span.helper {
       border-bottom: 0.7rem solid #0071bc;
+    }
+    &:hover { 
+      span.helper {
+        padding-bottom: 0.9rem;
+      }
     }
   }
 
