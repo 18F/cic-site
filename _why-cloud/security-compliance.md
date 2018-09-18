@@ -1,16 +1,22 @@
 ---
 layout: sidenav-page
-title: Security Compliance
+title: Security and compliance
 permalink: /why-cloud/security-compliance/
 sidenav_ref: why-cloud
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel fermentum nulla. Phasellus vitae iaculis quam, vitae ultricies lorem. Nulla faucibus ex cursus leo ullamcorper, et vulputate purus tincidunt. Ut placerat justo a velit lacinia, et pretium eros euismod. Vestibulum consectetur condimentum ipsum, in lobortis metus ornare a. Mauris eget purus eget neque mattis pulvinar. Nam nec consectetur orci. Quisque tempor at dolor sed finibus. Vivamus scelerisque consectetur hendrerit.
+When it comes to cloud adoption, security is sometimes listed as a barrier (or at least a concern) to access. This comes from a misplaced belief that the cloud is less secure than the physical data centers agencies keep on premises. On the contrary, cloud services and facilities typically possess the proper security architecture and certifications to provide services for the government — and often have larger security teams than agencies can themselves support. 
 
-Duis molestie, purus nec porttitor sodales, tellus felis hendrerit ligula, sagittis posuere diam nisl in mi. Mauris tempor velit vitae nibh mattis euismod. Phasellus malesuada, neque ac pretium suscipit, purus metus pharetra enim, eget hendrerit nibh ante nec tellus. Maecenas in massa mattis, dictum sem in, porta lacus. Vestibulum ac semper enim. Nunc vitae pulvinar orci. Donec commodo ac velit at vehicula. Donec dignissim, ipsum gravida suscipit pellentesque, ante massa vulputate arcu, non lacinia erat massa a dui.
+But even the most secure cloud solution still requires you to maintain some security and compliance protocols on your end. Below is an overview of what that might look like for you, as well as some things to keep an eye out for.
 
-Mauris consectetur vehicula cursus. In egestas viverra purus, pretium sagittis turpis pellentesque sodales. Vestibulum iaculis ante sit amet tincidunt pulvinar. Etiam tincidunt tincidunt nulla, quis finibus ex vulputate sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et justo id ex fermentum tempor. Aliquam egestas nisl at rutrum facilisis. Fusce volutpat lorem felis, in scelerisque augue maximus sed. Ut varius ex a sem tincidunt, non tristique elit varius. Morbi lorem eros, rhoncus in ornare eget, facilisis et arcu. Ut quis porttitor quam, ac consectetur mauris.
+## Responsibilities
 
-Vestibulum ligula tortor, consectetur id vulputate a, imperdiet vitae enim. Duis ac blandit est. Nulla molestie ligula at volutpat congue. Suspendisse gravida pulvinar luctus. Sed felis ipsum, commodo sit amet tempor ut, venenatis et ante. Quisque sit amet arcu elementum, pellentesque lacus id, pellentesque odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat nibh vitae varius volutpat.
+The security and compliance you’re responsible for depends on what [type of cloud solution](https://federalist-proxy.app.cloud.gov/preview/18f/cic-site/105-OverviewCloudSolutions/why-cloud/basics/) you procure. Software as a service (SaaS) users are typically responsible for very little; on the other hand, infrastructure as a service (IaaS) users will have to secure platforms and software themselves. A good rule of thumb is that you’re usually responsible for what you can customize; if it’s automatically set up for you, your vendor is likely responsible for its security and compliance. (However, there are exceptions to this: for example, sometimes a vendor will provide the tools you need to maintain security and compliance, but it’ll be your responsibility to make sure that tool is used correctly.)
 
-Integer risus odio, egestas ut leo nec, mollis pulvinar sem. Nulla ac consequat felis. Quisque eu consequat arcu. Ut posuere scelerisque diam, vitae gravida lorem aliquam vitae. Proin a ultrices odio, nec rhoncus nunc. Fusce molestie nisl vel lacus auctor, vitae iaculis magna convallis. Quisque consectetur mauris massa, id malesuada tortor volutpat eget. Aenean turpis lorem, molestie sed libero et, rhoncus molestie elit. Nulla lectus nisl, porttitor eu maximus et, varius id diam. Nunc scelerisque tempor ultrices. Nulla ipsum nisl, interdum sed mauris quis, tincidunt sodales quam.
+Understanding this shared responsibility model is fundamental to procuring and implementing cloud. That way, you know what you’re getting for your money — and you won’t be surprised down the line by requirements you thought were being covered by a vendor. 
+
+## FedRAMP
+
+If your agency’s cloud migration is still in its early stages, or if you don’t have the capacity to manage an in-depth security and compliance process, consider limiting your search to solutions that are FedRAMP-authorized. The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services.
+
+[FedRAMP](https://marketplace.fedramp.gov/#/products) has an established marketplace of solutions agencies need, and offers assistance and guidance to agencies as they transition to modern, secure cloud technologies. It’s  mandatory for U.S. federal cloud deployments and service models, and the U.S. Office of Management and Budget (OMB) mandate states that agencies must “use FedRAMP when conducting risk assessments, security authorizations, and granting Authorities to Operate (ATO) for all executive department or agency use of cloud services.”
