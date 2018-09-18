@@ -1,27 +1,24 @@
 (function (document, window, $) {
-  $(document).ready(function(){
-    ajaxifyContactForm();
+
+  // Initialize sticky fill
+  var stickyElements = document.getElementsByClassName('sticky');
+
+  for (var i = stickyElements.length - 1; i >= 0; i--) {
+    Stickyfill.add(stickyElements[i]);
+  }
+
+    // Trigger point at which to perform dynamic effects on the nav bar
+    var triggerPoint = 60;
+
+    var $navPrimary = document.getElementById("usa-nav-primary");
+
+  // Shrink the nav bar upon page scroll.
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > triggerPoint) {
+      $navPrimary.classList.add("scrolled");
+    } else {
+      $navPrimary.classList.remove("scrolled");
+    }
   });
 
-  function ajaxifyContactForm () {
-    var contactForm = $('#contact'),
-        originalUrl = contactForm.attr('action');
-        contactBtn  = $('.contact [type=submit]'),
-        alert       = $('#contact-alert');
-
-    contactBtn.on('click', function (e) {
-      e.preventDefault();
-      var url = [originalUrl, contactForm.serialize()].join('?'),
-          img = $('<img></img');
-
-      img.on('error', function (e) {
-        console.log('known error', e);
-      });
-
-      contactBtn.val('Thank you');
-      contactBtn.attr('disabled', true);
-      img.attr('src', url);
-
-    });
-  }
 })(document, window, $);

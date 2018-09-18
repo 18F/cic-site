@@ -85,9 +85,9 @@ assigned:
                       relink: pricing/
 
             -
-                text: Acquisition documents
-                permalink: /acquisition/acquisition-template-documents/
-                href: pages/acquisition/acquisition-template-documents.md
+                text: Templates
+                permalink: /acquisition/templates/
+                href: pages/acquisition/templates.md
                 show_in_menu: true
                 show_in_footer: false
                 children:
