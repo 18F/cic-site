@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Security and Compliance
+title: Security and compliance
 permalink: /why-cloud/security-compliance/
 sidenav_ref: why-cloud
 ---
@@ -19,4 +19,4 @@ Understanding this shared responsibility model is fundamental to procuring and i
 
 If your agency’s cloud migration is still in its early stages, or if you don’t have the capacity to manage an in-depth security and compliance process, consider limiting your search to solutions that are FedRAMP-authorized. The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services.
 
-FedRAMP has an established marketplace of solutions agencies need, and offers assistance and guidance to agencies as they transition to modern, secure cloud technologies. It’s  mandatory for U.S. federal cloud deployments and service models, and the U.S. Office of Management and Budget (OMB) mandate states that agencies must “use FedRAMP when conducting risk assessments, security authorizations, and granting Authorities to Operate (ATO) for all executive department or agency use of cloud services.”
+[FedRAMP](https://marketplace.fedramp.gov/#/products) has an established marketplace of solutions agencies need, and offers assistance and guidance to agencies as they transition to modern, secure cloud technologies. It’s  mandatory for U.S. federal cloud deployments and service models, and the U.S. Office of Management and Budget (OMB) mandate states that agencies must “use FedRAMP when conducting risk assessments, security authorizations, and granting Authorities to Operate (ATO) for all executive department or agency use of cloud services.”
