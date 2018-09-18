@@ -1,12 +1,44 @@
-@media all and (min-width: 951px) {
-  .usa-header-basic .usa-navbar {
-    // this affects the size of the logo and also the mobile menu nav
-    width: 30%;
+@media only screen and (min-width: 951px) {
+  .usa-banner {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+  }
+  .usa-header-extended {
+    position: fixed;
+    top: 22px;
+    background: $background-color;
+    transition: all 0.25s ease;
+
+    &.scrolled {
+      .usa-logo-text {
+        font-size: 2rem;
+      }
+      .usa-logo {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+      }
+
+      img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+    .usa-header-extended .usa-nav-link
+     {
+       margin-top: 1rem;
+     }
+  }
+
+  .main-content {
+    margin-top: 215px;
   }
 }
 
+
 @media all and (max-width: 951px) {
-  #logo img {
+  .usa-logo img {
     // keep header img from overflowing menu bar
     max-height: 3.7rem;
   }
@@ -16,51 +48,76 @@
   color: $button-color;
 }
 
-.usa-nav-link:hover span {
-  border-bottom-color: $button-color;
-}
-
 .usa-nav-submenu a:visited {
   color: $background-color;
 }
 
+.usa-nav-primary {
 
-.usa-nav-primary .helper {
+  span.helper {
     font-weight: normal;
     display: block;
     padding-top: 0.4rem;
     padding-bottom: 1.9rem;
+    line-height: 1;
+  }
+
+  button {
+    vertical-align: middle;
+    padding-bottom: 0;
+
+    &:hover {
+      padding-bottom: 0;
+      span {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      span.helper {
+        padding-bottom: 1.2rem;
+        border-bottom: 0.7rem solid #0071bc;
+      }
+    }
+  }
+
+  button[aria-expanded=true] {
+    span {
+      border-bottom: none;
+      padding-bottom: 0.9rem;
+    }
+
+    span.helper {
+      border-bottom: 0.7rem solid #0071bc;
+    }
+    &:hover { 
+      span.helper {
+        padding-bottom: 0.9rem;
+      }
+    }
+  }
+
 }
 
-.usa-nav-primary > li > a .helper {
-  padding-bottom: 0;
-}
-
-.usa-nav-link:hover span {
-     border-bottom: none;
-}
-
-.usa-nav-link:hover span.helper {
-     border-bottom: 0.7rem solid #0071bc;
-    //  padding-bottom: 0.9rem;
-}
-
-.usa-nav-primary button {
-  padding-bottom: 0;
-  vertical-align: middle;
-}
 
 .usa-nav-primary > li > a.usa-nav-link {
   display: inline-block;
   vertical-align: middle;
+  padding-bottom: 0;
+  line-height: 1;
+  
+  &:hover {
+    padding-bottom: 0;
+    span {
+      border-bottom: none;
+    }
+
+    span.helper {
+      padding-bottom: 1.2rem;
+      border-bottom: 0.7rem solid #0071bc;
+    }
+  }
+
 }
 
-.usa-nav-primary button[aria-expanded=true] span {
-    border-bottom: none;
-    padding-bottom: 0.9rem;
-}
 
-.usa-nav-primary button[aria-expanded=true] span.helper {
-    border-bottom: 0.7rem solid #0071bc;
-}
 
