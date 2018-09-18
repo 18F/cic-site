@@ -1,6 +1,6 @@
 ---
 layout: overview-page
-title: Collaboration and Productivity
+title: Collaboration and productivity
 permalink: /cloud-solutions/collaboration-and-productivity/
 sidenav_ref: cloud-solutions
 link_cards:
