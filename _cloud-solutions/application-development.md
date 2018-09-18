@@ -1,6 +1,6 @@
 ---
 layout: overview-page
-title: Application Development
+title: Application development
 permalink: /cloud-solutions/application-development/
 sidenav_ref: cloud-solutions
 link_cards:
@@ -8,7 +8,7 @@ link_cards:
     title: Compute
     summary: What solutions are available
   - 
-    title: Content Delivery Networks (CDNs)
+    title: Content delivery networks (CDNs)
     summary: What solutions are available
   - 
     title: Databases
