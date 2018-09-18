@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Change Management
+title: Change management
 permalink: /implementation/business/change-management/
 sidenav_ref: implementation
 parent: /implementation/business/
