@@ -1,6 +1,6 @@
 ---
 layout: overview-page
-title: Find Cloud Solutions
+title: Find cloud solutions
 permalink: /cloud-solutions/
 sidenav_ref: cloud-solutions
 link_cards:
