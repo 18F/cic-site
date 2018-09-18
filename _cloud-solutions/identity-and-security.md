@@ -1,6 +1,6 @@
 ---
 layout: overview-page
-title: Identity and Security
+title: Identity and security
 permalink: /cloud-solutions/identity-and-security/
 sidenav_ref: cloud-solutions
 link_cards:
