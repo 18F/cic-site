@@ -35,11 +35,20 @@ a {
 
 .usa-logo img {
   max-width: 6rem;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  transition: all 0.5s ease;
 }
 
 .usa-logo-text {
-  font-size: 2rem
+  font-size: 2rem;
+  transition: all 0.5s ease;
 }
+
+.usa-logo {
+  transition: all 0.5s ease;
+}
+
 
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
@@ -48,4 +57,14 @@ a {
     max-width: 62.5rem;
     margin-left: -31.25rem;
   }
+    .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    
+  }
+
+  aside.sticky {
+    top: 215px;
+  }
+
 }

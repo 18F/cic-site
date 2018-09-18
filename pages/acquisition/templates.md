@@ -1,7 +1,7 @@
 ---
 layout: sidenav-page
 title: Acquisition Template Documents
-permalink: /acquisition/acquisition-template-documents/
+permalink: /acquisition/templates/
 sidenav_ref: acquisition
 ---
 
