@@ -5,13 +5,21 @@ permalink: /cloud-solutions/
 sidenav_ref: cloud-solutions
 link_cards:
   - 
-    title: Acquisition
-    summary: How to compare vendors and procure the right solution
-    permalink: /acquisition/
+    title: Application development
+    summary: Build, launch, monitor, and scale your own custom apps
+    permalink: /cloud-solutions/application-development/
   - 
-    title: Implementation
-    summary: How to build a cloud-ready culture at your agency
-    permalink: /implementation/
+    title: Research and analytics
+    summary: Make the most of your data with visualization, machine learning, and mapping
+    permalink: /cloud-solutions/research-and-analytics/
+  - 
+    title: Identity and security
+    summary: Keep teams, devices, and sites safe with management and continuous monitoring
+    permalink: /cloud-solutions/identity-and-security/
+  - 
+    title: Collaboration and productivity
+    summary: Stay connected and organized with email, relationship management, help desk tools and more
+    permalink: /cloud-solutions/collaboration-and-productivity/
 ---
 
 Cloud offerings are usually organized in one of two ways: either by deployment model (what the product is) or business need (what the product does). 
@@ -20,17 +28,5 @@ Government procurement is typically organized around deployment model rather tha
 
 Although you’ll ultimately choose an IaaS, PaaS, or SaaS solution, start by considering your business need rather than your deployment model. There may be products that accomplish your needs with more automation or less compliance work than you anticipate.
 
-The following cloud products are arranged by business need. Each of them is [FedRAMP-authorized](https://www.fedramp.gov/about/), meaning they’re easier and cheaper to acquire and deploy. 
-
-## Application development
-Build, launch, monitor, and scale your own custom apps 
-
-## Research and analytics
-Make the most of your data with visualization, machine learning, and mapping
-
-## Identity and security
-Keep teams, devices, and sites safe with management and continuous monitoring
-
-## Collaboration and productivity
-Stay connected and organized with email, relationship management, help desk tools and more
+The following cloud products are arranged by business need. Each of them is [FedRAMP-authorized](https://www.fedramp.gov/about/), meaning they’re easier and cheaper to acquire and deploy.
 
