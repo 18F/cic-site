@@ -5,10 +5,10 @@ permalink: /support/
 sidenav_ref: support
 ---
 
-## Overview of Support
+## Overview of support
 We're here to help!
 
-## Contact GSA Cloud Support
+## Contact GSA cloud support
 
   <div class="usa-grid">
     <div class="usa-width-one-fourth">
