@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Procurement Process
+title: Procurement process
 permalink: /acquisition/procurement-process/
 sidenav_ref: acquisition
 ---
