@@ -5,13 +5,21 @@ permalink: /cloud-solutions/
 sidenav_ref: cloud-solutions
 link_cards:
   - 
-    title: Acquisition
-    summary: How to compare vendors and procure the right solution
-    permalink: /acquisition/
+    title: Application development
+    summary: Build, launch, monitor, and scale your own custom apps
+    permalink: /application-development/
   - 
-    title: Implementation
-    summary: How to build a cloud-ready culture at your agency
-    permalink: /implementation/
+    title: Research and analytics
+    summary: Make the most of your data with visualization, machine learning, and mapping
+    permalink: /research-and-analytics/
+  - 
+    title: Identity and security
+    summary: Keep teams, devices, and sites safe with management and continuous monitoring
+    permalink: /identity-and-security/
+  - 
+    title: Collaboration and productivity
+    summary: Stay connected and organized with email, relationship management, help desk tools and more
+    permalink: /collaboration-and-productivity/
 ---
 
 Cloud offerings are usually organized in one of two ways: either by deployment model (what the product is) or business need (what the product does). 
