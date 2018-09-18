@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Technical Capabilities
+title: Technical capabilities
 permalink: /why-cloud/technical-capabilities/
 sidenav_ref: why-cloud
 ---
