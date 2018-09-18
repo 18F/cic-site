@@ -6,7 +6,7 @@ assigned:
         show_in_menu: false
         show_in_footer: false
     -
-        text: Why Cloud?
+        text: Why cloud?
         href: pages/why-cloud.md
         sidenav_ref: why-cloud
         permalink: /why-cloud/
@@ -21,19 +21,19 @@ assigned:
                 show_in_menu: true
                 show_in_footer: true
             -
-                text: Technical Capabilities
+                text: Technical capabilities
                 permalink: /why-cloud/technical-capabilities/
                 href: _why-cloud/technical-capabilities.md
                 show_in_menu: true
                 show_in_footer: true
             -
-                text: Security Compliance
+                text: Security compliance
                 permalink: /why-cloud/security-compliance/
                 href: _why-cloud/security-compliance.md
                 show_in_menu: true
                 show_in_footer: false
     -
-        text: Find Cloud Solutions
+        text: Find cloud solutions
         href: pages/cloud-solutions.md
         permalink: /cloud-solutions/
         sidenav_ref: cloud-solutions
@@ -42,25 +42,25 @@ assigned:
         helper_text: Support your mission
         children:
             -
-                text: Application Development
+                text: Application development
                 permalink: /cloud-solutions/application-development/
                 href: _cloud-solutions/application-development.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Research and Analytics
+                text: Research and analytics
                 permalink: /cloud-solutions/research-and-analytics/
                 href: _cloud-solutions/research-and-analytics.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Identity and Security
+                text: Identity and security
                 permalink: /cloud-solutions/identity-and-security/
                 href: _cloud-solutions/identity-and-security.md
                 show_in_menu: true
                 show_in_footer: false
             -
-                text: Collaboration and Productivity
+                text: Collaboration and productivity
                 permalink: /cloud-solutions/collaboration-and-productivity/
                 href: _cloud-solutions/collaboration-and-productivity.md
                 show_in_menu: true
@@ -95,16 +95,16 @@ assigned:
                         text: Statment of objectives (SOO)
                         relink: statement-of-objectives/
                     -
-                        text: Statement of Work (SOW)
+                        text: Statement of work (SOW)
                         relink: statement-of-work/
                     -
-                        text: Request for Information (RFI)
+                        text: Request for information (RFI)
                         relink: request-for-information/
                     -
-                        text: Request for Proposal (RFP)
+                        text: Request for proposal (RFP)
                         relink: request-for-proposals/
                     -
-                        text: Blanket Purchase Agreement (BPA)
+                        text: Blanket purchase agreement (BPA)
                         relink: blanket-purchase-agreement/
     -
         text: Implementation
@@ -123,7 +123,7 @@ assigned:
                 show_in_footer: false
                 children:
                     -
-                        text: Staffing Resources
+                        text: Staffing resources
                         relink: staffing-resources/
                     -
                         text: Training
@@ -160,6 +160,6 @@ assigned:
         sidenav_ref: support
         show_in_menu: true
         show_in_footer: false 
-        helper_text: Help from real people
+        helper_text: Help from cloud experts
 
 unassigned: []
