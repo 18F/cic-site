@@ -25,21 +25,34 @@
   padding-left: .3em;
   padding-right: .3em;
 }
-.hero-content .usa-button {
-  font-size: 22px;
-  line-height: 30px;
-}
 
 .usa-hero {
-  background-image: none;
-  background-color: $hero-background-color;
+  background-image: url('../img/home-background.jpg');
+ 
+  .usa-grid {
+    background: #ffffffcf;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .usa-width-one-third {
+    float: left;
+  }
+
+  .usa-width-one-half {
+    padding: 3rem;
+
+    li {
+      font-size: 2rem;
+    }
+  }
+
 }
 
 .usa-hero-callout {
   display: inline-block;
-}
 
-.usa-hero .usa-width-one-third {
-  float: left;
-  margin-right: 2em;
+  h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+  }
 }

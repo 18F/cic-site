@@ -7,14 +7,11 @@ layout: base
       <div class="usa-width-one-third">
           <div class="usa-hero-callout usa-section-dark">
             <h2>
-      
               <span class="usa-hero-callout-alt">{{ page.hero-text }}</span>
-      
-              
             </h2>
       
       
-            <p>{{ page.hero-sub-text }}</p>
+            <h3>{{ page.hero-sub-text }}</h3>
           </div>
         </div>
         <div class="usa-width-one-half">
@@ -31,58 +28,28 @@ layout: base
 
 
 
-  <section class="usa-section usa-section-dark usa-graphic_list">
-    <div class="usa-grid usa-graphic_list-row">
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="{{ site.baseurl }}/assets/img/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3><a href="{{ site.baseurl }}/why-cloud">Why Cloud?</a></h3>
-          <p>Efficiency, agility, and innovation benefits</p>
-        </div>
-      </div>
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="{{ site.baseurl }}/assets/img/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3><a href="{{ site.baseurl }}/cloud-solutions">Cloud solutions</a></h3>
-          <p>Products and services that support your mission goals</p>
-        </div>
+  <section class="usa-section usa-graphic_list">
+    <div class="usa-grid">
+    {% if page.link_cards %}
+    <div class="project-container">
+      <div class="usa-grid">
+        {% for card in page.link_cards %}
+        <article class="card usa-width-one-third">
+          <a class="card-link" href="{{ card.permalink | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">
+            <div class="card-banner">
+              <img src="/assets/img/{{ card.image }}" />
+              <h3 class="card-description">
+                <span>{{ card.title }}</span>
+              </h3>
+              <p class="card-summary">{{ card.summary }}</p>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
       </div>
     </div>
-    <div class="usa-grid usa-graphic_list-row">
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="{{ site.baseurl }}/assets/img/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3><a href="{{ site.baseurl }}/acquisition">Acquisition</a></h3>
-          <p>What you need to know about procurement</p>
-        </div>
-      </div>
-      <div class="usa-width-one-half usa-media_block">
-        <img class="usa-media_block-img" src="{{ site.baseurl }}/assets/img/circle-124.png" alt="Alt text">
-        <div class="usa-media_block-body">
-          <h3><a href="{{ site.baseurl }}/implementation">Implementation</a></h3>
-          <p>How to spot opportunities and build buy-in</p>
-        </div>
-      </div>
+    {% endif %}
     </div>
-        <div class="usa-grid usa-graphic_list-row">
-          <div class="usa-width-one-half usa-media_block">
-            <img class="usa-media_block-img" src="{{ site.baseurl }}/assets/img/circle-124.png" alt="Alt text">
-            <div class="usa-media_block-body">
-              <h3>
-                <a href="{{ site.baseurl }}/support">Support</a>
-              </h3>
-              <p>Fast help from real people</p>
-            </div>
-          </div>
-          <div class="usa-width-one-half usa-media_block">
-            <div class="usa-media_block-body">
-              <h3>
-                
-              </h3>
-              <p> </p>
-            </div>
-          </div>
-        </div>
   </section>
 
 
