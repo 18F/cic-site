@@ -16,8 +16,21 @@
 }
 
 
-@media (min-width: 951px){
+@media (min-width: 600px){
   .sidenav {
+    order: 2;
     display: block;
   }
 }
+
+@media (min-width: 951px and max-width: 1201px){
+  .usa-width-three-fourths.usa-content {
+    width: 70%;
+  }
+
+  .usa-width-one-fourth.sidenav {
+    width: 23.23176%;
+  }
+}
+
+
