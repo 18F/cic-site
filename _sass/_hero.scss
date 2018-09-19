@@ -56,3 +56,15 @@
     font-weight: normal;
   }
 }
+
+@media (max-width: 600px) {
+  .usa-hero-callout {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .usa-hero .usa-width-one-third {
+    width: 100%;
+  }
+
+}

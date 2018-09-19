@@ -10,3 +10,14 @@
     color: $button-color;
   }
 }
+
+.sidenav {
+  display: none;
+}
+
+
+@media (min-width: 951px){
+  .sidenav {
+    display: block;
+  }
+}

@@ -5,18 +5,6 @@
     }
     .card {
         background: none;
-        min-height: 250px;
-
-
-        // box-shadow: none;
-
-        // &:hover {
-        //     box-shadow: none;
-        // }
-
-        // &:active {
-        //     box-shadow: none;
-        // }
 
         a {
             border: none;
@@ -32,4 +20,11 @@
             text-align: center;
         }
     }
+}
+
+@media (min-width: 600px) {
+    .usa-graphic_list .card {
+        min-height: 250px;
+    }
+    
 }
