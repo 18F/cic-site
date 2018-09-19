@@ -13,7 +13,9 @@ But even the most secure cloud solution still requires you to maintain some secu
 
 The security and compliance you’re responsible for depends on what [type of cloud solution](/why-cloud/basics/) you procure. Software as a service (SaaS) users are typically responsible for very little; platform as a service users only have to secure their applications; on the other hand, infrastructure as a service (IaaS) users will have to secure platforms and software themselves. A good rule of thumb is that you’re usually responsible for what you can customize; if it’s automatically set up for you, your vendor is likely responsible for its security and compliance. (However, there are exceptions to this: for example, sometimes a vendor will provide the tools you need to maintain security and compliance, but it’ll be your responsibility to make sure that tool is used correctly.)
 
-Understanding this shared responsibility model is fundamental to procuring and implementing cloud. That way, you know what you’re getting for your money — and you won’t be surprised down the line by requirements you thought were being covered by a vendor. 
+Understanding this shared responsibility model is fundamental to procuring and implementing cloud. That way, you know what you’re getting for your money — and you won’t be surprised down the line by requirements you thought were being covered by a vendor.
+
+<img src="./assets/img/iaas-paas-monitor.png" alt="Shared controls across deployment models" />
  
 
 ## FedRAMP
