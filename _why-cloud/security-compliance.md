@@ -15,7 +15,7 @@ The security and compliance you’re responsible for depends on what [type of cl
 
 Understanding this shared responsibility model is fundamental to procuring and implementing cloud. That way, you know what you’re getting for your money — and you won’t be surprised down the line by requirements you thought were being covered by a vendor.
 
-<img src="./assets/img/iaas-paas-monitor.png" alt="Shared controls across deployment models" />
+<img src="{{ site.baseurl }}/assets/img/iaas-paas-monitor.png" alt="Shared controls across deployment models" />
  
 
 ## FedRAMP
