@@ -1,0 +1,30 @@
+.usa-graphic_list  {
+
+    .project-container {
+        margin: auto 0;
+    }
+    .card {
+        background: none;
+
+        a {
+            border: none;
+        }
+       
+        img {
+            max-height: 125px;
+            margin: auto 0 1.5rem;
+            display: block;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .usa-graphic_list .card {
+        min-height: 250px;
+    }
+    
+}

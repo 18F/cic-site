@@ -10,3 +10,34 @@
     color: $button-color;
   }
 }
+
+.sidenav {
+  display: none;
+}
+
+
+@media (min-width: 600px){
+  .sidenav {
+    order: 2;
+    display: block;
+  }
+}
+
+@media (min-width: 951px) {
+  .usa-width-three-fourths.usa-content {
+    width: 70%;
+  }
+
+  .usa-width-one-fourth.sidenav {
+    width: 23.23176%;
+  }
+}
+
+@media (min-width: 1201px){
+    .usa-width-three-fourths.usa-content {
+        width: 74.41059%;
+  }
+
+}
+
+
