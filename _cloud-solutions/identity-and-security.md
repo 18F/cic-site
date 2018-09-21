@@ -6,12 +6,12 @@ sidenav_ref: cloud-solutions
 link_cards:
   - 
     title: Continuous monitoring
-    summary: What solutions are available
+    summary: Check for suspicious activity
   - 
     title: Device management
-    summary: What solutions are available
+    summary: Keep your virtual and physical resources secure
   - 
     title: Identity management
-    summary: What solutions are available
+    summary: Grant access to the right people
 ---
-Overview description for identity and security
+Solutions to help you keep your teams, devices, and sites safe.
