@@ -5,14 +5,38 @@ permalink: /acquisition/procurement-process/
 sidenav_ref: acquisition
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel fermentum nulla. Phasellus vitae iaculis quam, vitae ultricies lorem. Nulla faucibus ex cursus leo ullamcorper, et vulputate purus tincidunt. Ut placerat justo a velit lacinia, et pretium eros euismod. Vestibulum consectetur condimentum ipsum, in lobortis metus ornare a. Mauris eget purus eget neque mattis pulvinar. Nam nec consectetur orci. Quisque tempor at dolor sed finibus. Vivamus scelerisque consectetur hendrerit.
+As established in the [Basics](/why-cloud/basics/) section, there is no one “cloud” — rather, there are a handful of cloud types and cloud models. Cross that with the fact that government uses multiple types of contracts and offers multiple ways of purchasing, and you’ll find that there’s no shortage of options for getting cloud deployed at your agency. You’ll want to conduct market research — about both what cloud solutions meet your mission needs and which acquisition strategies can get you those services.
 
-Duis molestie, purus nec porttitor sodales, tellus felis hendrerit ligula, sagittis posuere diam nisl in mi. Mauris tempor velit vitae nibh mattis euismod. Phasellus malesuada, neque ac pretium suscipit, purus metus pharetra enim, eget hendrerit nibh ante nec tellus. Maecenas in massa mattis, dictum sem in, porta lacus. Vestibulum ac semper enim. Nunc vitae pulvinar orci. Donec commodo ac velit at vehicula. Donec dignissim, ipsum gravida suscipit pellentesque, ante massa vulputate arcu, non lacinia erat massa a dui.
+## Determine your mission needs
 
-## Pricing
-Mauris consectetur vehicula cursus. In egestas viverra purus, pretium sagittis turpis pellentesque sodales. Vestibulum iaculis ante sit amet tincidunt pulvinar. Etiam tincidunt tincidunt nulla, quis finibus ex vulputate sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et justo id ex fermentum tempor. Aliquam egestas nisl at rutrum facilisis. Fusce volutpat lorem felis, in scelerisque augue maximus sed. Ut varius ex a sem tincidunt, non tristique elit varius. Morbi lorem eros, rhoncus in ornare eget, facilisis et arcu. Ut quis porttitor quam, ac consectetur mauris.
+Your acquisition team are experts, and they — along with resources like GSA’s [Assisted Acquisition Services](https://aas.gsa.gov/index.html) and 18F’s [acquisition services](https://18f.gsa.gov/tags/acquisition-services/) — can help shepherd the process along. But generally speaking, you’ll have to consider the following things before you can successfully procure a cloud solution.
 
-Vestibulum ligula tortor, consectetur id vulputate a, imperdiet vitae enim. Duis ac blandit est. Nulla molestie ligula at volutpat congue. Suspendisse gravida pulvinar luctus. Sed felis ipsum, commodo sit amet tempor ut, venenatis et ante. Quisque sit amet arcu elementum, pellentesque lacus id, pellentesque odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat nibh vitae varius volutpat.
+* **Do you want to buy cloud technology and cloud services together or separately**? This may help you decide which purchasing vehicles to choose or which types of contracts will meet your needs.
 
-## Vendor comparison and evaluation criteria
-Integer risus odio, egestas ut leo nec, mollis pulvinar sem. Nulla ac consequat felis. Quisque eu consequat arcu. Ut posuere scelerisque diam, vitae gravida lorem aliquam vitae. Proin a ultrices odio, nec rhoncus nunc. Fusce molestie nisl vel lacus auctor, vitae iaculis magna convallis. Quisque consectetur mauris massa, id malesuada tortor volutpat eget. Aenean turpis lorem, molestie sed libero et, rhoncus molestie elit. Nulla lectus nisl, porttitor eu maximus et, varius id diam. Nunc scelerisque tempor ultrices. Nulla ipsum nisl, interdum sed mauris quis, tincidunt sodales quam.
+
+* **Do you want everything to come from one vendor**? While it can seem like an easier choice upfront, getting everything from one supplier can lead to problems down the line. By procuring from multiple vendors and joining cloud services up, you can help make sure you get the best services for your team while avoiding vendor lock-in.
+
+
+* **What will work best for your agency**? Finding the right tech is only half the battle — you also need to navigate your own internal processes. Ask your acquisition team what’s worked for them so far, especially if they’ve already bought cloud products or services for someone else within the organization.
+
+* **Which cloud deployment do you want**? Take a look at your security needs and determine if you take advantage of a public (or government cloud) or if you’ll need to leverage a private cloud for sensitive assets. Read more about these options on our [Basics](/why-cloud/basics/) page.
+
+* **Which cloud model do you need**? You’ll first need to see which [products](/cloud-solutions/) meet your need. You can then determine if those solutions are infrastructure as a service (IaaS), platform as a service (PaaS), or software as a service (SaaS). SaaS solutions may be easier to procure than other models because [FedRAMP](https://fedramp.gov/) offers a separate authorization program for what they call "[low-impact software as a service](https://tailored.fedramp.gov/).”
+
+## Develop an acquisition strategy
+Once you’ve got these questions answered, you can start making decisions about what kind of procurement you want to make. Every agency is different, but if you’re purchasing from GSA, here are the major considerations. 
+
+* **Which vehicle will you choose**? At GSA, cloud services are available via [IT Schedule 70](https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70) and [governmentwide acquisition programs (GWACs)](https://www.gsa.gov/technology/technology-purchasing-programs/governmentwide-acquisition-contracts-gwacs).  Each has their advantages — for example, GWACs offer lower prices via pooled purchases, while Schedule 70 has a broader range of products and services available.
+
+
+* **Will you bundle technology with labor**? It’s possible to procure both tech and assistance at the same time. Depending on your agency’s needs, this may or may not be necessary. For more, take a look at our sample [Statement of Objectives on Cloud Migration Services](/templates/statement-of-objectives/).
+
+* **Which type of contract should you use**? Just as in the rest of government, there are three types of contract: firm-fixed-price (FFP), cost reimbursement, and time and materials (T&M). Once again, there are advantages and disadvantages to each; for example, FFP contracts are simpler but won’t ever let you underspend if you need less resource than you anticipated.
+
+* **Will you buy directly or through a cloud service reseller**? Some cloud services are directly available on GSA IT Schedule 70, and some are available via resellers who can help you access discounted pricing rates.
+
+## Leverage our acquisition templates
+Once you’ve conducted the market research to determine which solutions meet your need, how to bundle services and labor, and where to solicit your request, you can leverage our cloud-friendly [acquisition templates](/templates/). 
+Get help
+
+Cloud acquisition is rarely simple, but if done well it can drastically improve your capabilities and save money, too. If you’d like more assistance with acquisition, visit our [support](/support/) page.
