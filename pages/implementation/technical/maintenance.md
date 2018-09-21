@@ -6,12 +6,19 @@ sidenav_ref: implementation
 parent: /implementation/technical/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel fermentum nulla. Phasellus vitae iaculis quam, vitae ultricies lorem. Nulla faucibus ex cursus leo ullamcorper, et vulputate purus tincidunt. Ut placerat justo a velit lacinia, et pretium eros euismod. Vestibulum consectetur condimentum ipsum, in lobortis metus ornare a. Mauris eget purus eget neque mattis pulvinar. Nam nec consectetur orci. Quisque tempor at dolor sed finibus. Vivamus scelerisque consectetur hendrerit.
+If you’re used to a traditional IT environment, you’re probably also used to having to maintain a traditional IT environment. That means installing machines, updating software, monitoring everything, and fixing anything that goes wrong.
 
-Duis molestie, purus nec porttitor sodales, tellus felis hendrerit ligula, sagittis posuere diam nisl in mi. Mauris tempor velit vitae nibh mattis euismod. Phasellus malesuada, neque ac pretium suscipit, purus metus pharetra enim, eget hendrerit nibh ante nec tellus. Maecenas in massa mattis, dictum sem in, porta lacus. Vestibulum ac semper enim. Nunc vitae pulvinar orci. Donec commodo ac velit at vehicula. Donec dignissim, ipsum gravida suscipit pellentesque, ante massa vulputate arcu, non lacinia erat massa a dui.
+Even at the highest levels of customization, what you put on the cloud will require less maintenance than what you have on-prem. That’s because your cloud service provider (CSP) will be taking care of at least your infrastructure and, in some cases, everything down to the code. Just like with compliance, the level of maintenance required of you depends on how deeply you’ve adopted cloud — and if you can customize it, you’re probably responsible for it. 
 
-Mauris consectetur vehicula cursus. In egestas viverra purus, pretium sagittis turpis pellentesque sodales. Vestibulum iaculis ante sit amet tincidunt pulvinar. Etiam tincidunt tincidunt nulla, quis finibus ex vulputate sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam et justo id ex fermentum tempor. Aliquam egestas nisl at rutrum facilisis. Fusce volutpat lorem felis, in scelerisque augue maximus sed. Ut varius ex a sem tincidunt, non tristique elit varius. Morbi lorem eros, rhoncus in ornare eget, facilisis et arcu. Ut quis porttitor quam, ac consectetur mauris.
+Every solution is unique, but as a general guiding principle, here’s the type of maintenance you’ll be responsible for in every cloud model.
 
-Vestibulum ligula tortor, consectetur id vulputate a, imperdiet vitae enim. Duis ac blandit est. Nulla molestie ligula at volutpat congue. Suspendisse gravida pulvinar luctus. Sed felis ipsum, commodo sit amet tempor ut, venenatis et ante. Quisque sit amet arcu elementum, pellentesque lacus id, pellentesque odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat nibh vitae varius volutpat.
+* **Software as a service (SaaS)** solutions offer the least customization and thus leaves you with the lightest maintenance burden. There should be very little you need to do to maintain a SaaS, with the exception of keeping your own web browsers up to date.
 
-Integer risus odio, egestas ut leo nec, mollis pulvinar sem. Nulla ac consequat felis. Quisque eu consequat arcu. Ut posuere scelerisque diam, vitae gravida lorem aliquam vitae. Proin a ultrices odio, nec rhoncus nunc. Fusce molestie nisl vel lacus auctor, vitae iaculis magna convallis. Quisque consectetur mauris massa, id malesuada tortor volutpat eget. Aenean turpis lorem, molestie sed libero et, rhoncus molestie elit. Nulla lectus nisl, porttitor eu maximus et, varius id diam. Nunc scelerisque tempor ultrices. Nulla ipsum nisl, interdum sed mauris quis, tincidunt sodales quam.
+
+* **Platform as a service (PaaS)** solutions give you full control over your own custom apps, and so you’re responsible for maintaining that code. You’ll need to keep making sure it still functions with modern clients and that it doesn’t have newly discovered vulnerabilities. 
+
+
+* **Infrastructure as a Service (IaaS)** solutions offer a great deal of customization and thus require significant maintenance on your part. You’ll be responsible for things like identity management and network security in addition to everything at the PaaS level.
+
+Maintenance is a shared responsibility between CSP and customer, and you should never assume something is (or isn’t) your responsibility. Every [FedRAMP](https://fedramp.gov/)-authorized CSP should have what’s called a “customer responsibility matrix” that will spell out who’s responsible for what and in which contexts. Ask your vendor to share theirs with you, and keep it on hand in case questions arise down the line.
+
