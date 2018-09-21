@@ -6,29 +6,28 @@ sidenav_ref: cloud-solutions
 link_cards:
   - 
     title: Compute
-    summary: What solutions are available
+    summary: Launch, manage, and scale your machines
   - 
     title: Content delivery networks (CDNs)
-    summary: What solutions are available
+    summary: Use caching to improve your performance
   - 
     title: Databases
-    summary: What solutions are available
+    summary: Store and retrieve your data
   - 
     title: Developer tools
-    summary: What solutions are available
+    summary: Work faster and smarter
   - 
     title: Networking
-    summary: What solutions are available
+    summary: Scale and balance your load
   - 
     title: Storage
-    summary: What solutions are available
+    summary: Repositories for your images, text files, and more
   - 
     title: Cloud management tools
-    summary: What solutions are available
+    summary: Monitor, notify, and analyze your deployments and usage
   - 
     title: Containers
-    summary: What solutions are available
-
+    summary: Deploy quickly regardless of environment
 ---
 
-Overview description for application development
+Solutions to help you build, launch, monitor, and scale your own custom apps. 
