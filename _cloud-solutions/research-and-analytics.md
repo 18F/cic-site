@@ -6,11 +6,13 @@ sidenav_ref: cloud-solutions
 link_cards:
   - 
     title: Artificial intelligence and machine learning
-    summary: What solutions are available
+    summary: Use models to analyze your data
   - 
     title: Big data
-    summary: What solutions are available
+    summary: Process large amounts of information quickly
   - 
     title: Mapping and graphical information systems
+    summary: Manage your geospatial data
 ---
-Overview for research and analytics
+Solutions to help you make the most of your data.
+
