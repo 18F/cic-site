@@ -6,27 +6,28 @@ sidenav_ref: cloud-solutions
 link_cards:
   - 
     title: Learning management systems (LMS)
-    summary: What solutions are available
+    summary: Deliver and track training
   - 
     title: Business management
-    summary: What solutions are available
+    summary: Optimize your back office
   - 
     title: Customer relationships
-    summary: What solutions are available
+    summary: Keep track of who you talk to
   - 
     title: Email
-    summary: What solutions are available
+    summary: Store and manage your messages
   - 
     title: Human resources
-    summary: What solutions are available
+    summary: Manage pay and position
   - 
     title: Public and media relations
-    summary: What solutions are available
+    summary: Track stories and sentiment
   - 
     title: Telecommunications
-    summary: What solutions are available
+    summary: Move to virtual voice solutions
   - 
     title: Help desk
+    summary: Give your staff the support they need
 ---
 
-Overview description for collaboration and productivity
+Solutions to help you stay connected and organized.
