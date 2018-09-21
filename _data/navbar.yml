@@ -72,7 +72,7 @@ assigned:
         sidenav_ref: acquisition
         show_in_menu: true
         show_in_footer: false
-        helper_text: What you need to know
+        helper_text: How to buy
         children:
             -
                 text: Procurement process
@@ -113,7 +113,7 @@ assigned:
         sidenav_ref: implementation
         show_in_menu: true
         show_in_footer: false
-        helper_text: How to's
+        helper_text: How to deploy
         children:
             -
                 text: Business
