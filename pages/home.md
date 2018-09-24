@@ -16,7 +16,7 @@ link_cards:
     image: templates.svg
     permalink: /acquisition/
   - 
-    title: Implementation guidelines
+    title: Implementation 
     image: guidelines.svg
     permalink: /implementation/
 
