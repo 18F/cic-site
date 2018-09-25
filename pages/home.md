@@ -8,15 +8,15 @@ hero-sub-text: Helping government get on the cloud
 hero-button-link: /about/
 link_cards:
   - 
-    title: Policies
-    image: policies.svg
-    permalink: /why-cloud/security-compliance/
+    title: Cloud basics
+    image: cloud-basics.svg
+    permalink: /why-cloud/basics/
   - 
-    title: Templates
+    title: Acquisition
     image: templates.svg
-    permalink: /acquisition/templates/
+    permalink: /acquisition/
   - 
-    title: Implementation guidelines
+    title: Implementation 
     image: guidelines.svg
     permalink: /implementation/
 
