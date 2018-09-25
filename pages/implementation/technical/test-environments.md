@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Test Environments
+title: Test environments
 permalink: /implementation/technical/test-environments/
 sidenav_ref: implementation
 parent: /implementation/technical/
