@@ -70,21 +70,24 @@ Email and Collaborative Services - Cloud Software as a Service (SaaS) SOO
 * [Cloud Infrastructure as a Service (IaaS) [PDF - 46 KB] August 25, 2011](https://www.gsa.gov/cdnstatic/Enterprise_Cloud__IaaS.pdf)
 
 
+
 #### What Documents Were Used as Sources or Used to Create This SOO Template? 
-The following documents were either leveraged to create this SOO Template or are good resources for further exploration. 
-* “Comprehensive Inventory of Agency IT Assets, Users and Processes” – Template of Questions Produced by Alliant Shared Interest Group (SIG), February 2012. 
+<small>The following documents were either leveraged to create this SOO Template or are good resources for further exploration.</small>
 
-* “Creating Effective Cloud Contracts for the Federal Government: Best Practices for Acquiring IT as a Service” – Joint publication of the CIO Council and the Chief Acquisition Officers Council, February 24, 2012. (Link) 
+* <small>“Comprehensive Inventory of Agency IT Assets, Users and Processes” – Template of Questions Produced by Alliant Shared Interest Group (SIG), February 2012. </small>
 
-* “Infrastructure-as-a-Service BPA Sample Statement of Objectives” – Posted on Info.apps.gov, May 2011. (Link) 
+* <small>“Creating Effective Cloud Contracts for the Federal Government: Best Practices for Acquiring IT as a Service” – Joint publication of the CIO Council and the Chief Acquisition Officers Council, February 24, 2012. (Link)</small> 
 
-* “GSA Statement of Objectives for Enterprise E-Mail and Collaboration Services” – SOO posted on www.gsa.gov for RFP #OCIO-14558, June 2010. (Link) 
+* <small>“Infrastructure-as-a-Service BPA Sample Statement of Objectives” – Posted on Info.apps.gov, May 2011. (Link) </small>
 
-* “Office of the Comptroller of the Currency Statement of Objectives, Data Center Professional Services” – Draft SOO posted on FBO.gov, February 2010. (Link)
+* <small>“GSA Statement of Objectives for Enterprise E-Mail and Collaboration Services” – SOO posted on www.gsa.gov for RFP #OCIO-14558, June 2010. (Link) </small>
 
-* “DOI Statement of Objectives for Cloud Email and Collaboration Services,” – SOO posted on FBO.gov for RFP D12PS00041, Feb. 19, 2012. (Link) 
+* <small>“Office of the Comptroller of the Currency Statement of Objectives, Data Center Professional Services” – Draft SOO posted on FBO.gov, February 2010. (Link)</small>
 
-* “Data Center Consolidation Initiative Agency Consolidation Plan Template” – Posted on CIO.gov, February 2010. (Link)  
+* <small>“DOI Statement of Objectives for Cloud Email and Collaboration Services,” – SOO posted on FBO.gov for RFP D12PS00041, Feb. 19, 2012. (Link) </small>
+
+* <small>“Data Center Consolidation Initiative Agency Consolidation Plan Template” – Posted on CIO.gov, February 2010. (Link)</small>
+
 
 
 
