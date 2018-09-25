@@ -9,7 +9,7 @@ No matter where you are in your IT modernization, we’re here to provide guidan
 
   <div class="usa-grid">
     <div class="usa-width-one-fourth">
-        <img al="Email Icon" src="{{ site.baseurl}}/assets/img/envelope.svg" class="help-icon">
+        <img alt="Email Icon" src="{{ site.baseurl}}/assets/img/envelope.svg" class="help-icon">
     </div>
     <div class="usa-width-three-fourths">
         <a href="mailto:cesdd@gsa.gov">
