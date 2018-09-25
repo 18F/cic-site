@@ -21,17 +21,17 @@ assigned:
                 show_in_menu: true
                 show_in_footer: true
             -
-                text: Technical capabilities
-                permalink: /why-cloud/technical-capabilities/
-                href: _why-cloud/technical-capabilities.md
-                show_in_menu: true
-                show_in_footer: true
-            -
                 text: Security compliance
                 permalink: /why-cloud/security-compliance/
                 href: _why-cloud/security-compliance.md
                 show_in_menu: true
                 show_in_footer: false
+            -
+                text: Technical capabilities
+                permalink: /why-cloud/technical-capabilities/
+                href: _why-cloud/technical-capabilities.md
+                show_in_menu: true
+                show_in_footer: true
     -
         text: Find cloud solutions
         href: pages/cloud-solutions.md
