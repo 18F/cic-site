@@ -9,12 +9,12 @@ Cloud adoption is bigger than just lift and shift — it’s an opportunity to r
 
 In this section, you’ll learn more about implementing cloud at your agency. We’ve broken this work into two discrete chunks.
 
-  * **[Business considerations]({{ site.baseurl }}/business/)** takes you through the human side of cloud deployment. What skills does your team need? How do you manage change? What’s the best approach to training?
+  * **[Business considerations]({{ site.baseurl }}/implementation/business/)** takes you through the human side of cloud deployment. What skills does your team need? How do you manage change? What’s the best approach to training?
 
 
-* **[Technical considerations]({{ site.baseurl }}/technical/)** gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
+* **[Technical considerations]({{ site.baseurl }}/implementation/technical/)** gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
 
-But whether you’re focusing on the business or the technical aspects of implementation, there are a few universal principles that are worth keeping in mind. 
+But whether you’re focusing on the business or the technical aspects of implementation, there are a few universal principles that are worth keeping in mind.
 
 * **Think creatively about cloud**. In addition to the obvious benefits, some of what cloud offers may surprise you. How can you reduce the time, effort, and investment currently required to maintain your IT portfolio?
 
@@ -23,7 +23,3 @@ But whether you’re focusing on the business or the technical aspects of implem
 
 
 * **Pay attention to your process**. Once you figure out what works in pilots, you’ll need a plan to transition cloud services at scale — templates that work over and over again. Keep an eye on what works and what doesn’t, and use every new program (or sprint, if you’re working in agile ways) to try something new.
-
-
-
-
