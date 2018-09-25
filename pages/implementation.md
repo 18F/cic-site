@@ -9,10 +9,10 @@ Cloud adoption is bigger than just lift and shift — it’s an opportunity to r
 
 In this section, you’ll learn more about implementing cloud at your agency. We’ve broken this work into two discrete chunks.
 
-  * **[Business considerations](/business/)** takes you through the human side of cloud deployment. What skills does your team need? How do you manage change? What’s the best approach to training?
+  * **[Business considerations]({{ site.baseurl }}/business/)** takes you through the human side of cloud deployment. What skills does your team need? How do you manage change? What’s the best approach to training?
 
 
-* **[Technical considerations](/technical/)** gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
+* **[Technical considerations]({{ site.baseurl }}/technical/)** gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
 
 But whether you’re focusing on the business or the technical aspects of implementation, there are a few universal principles that are worth keeping in mind. 
 
