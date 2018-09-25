@@ -37,6 +37,6 @@ Once you’ve got these questions answered, you can start making decisions about
 
 ## Leverage our acquisition templates
 Once you’ve conducted the market research to determine which solutions meet your need, how to bundle services and labor, and where to solicit your request, you can leverage our cloud-friendly [acquisition templates](/templates/). 
-Get help
 
+## Get help
 Cloud acquisition is rarely simple, but if done well it can drastically improve your capabilities and save money, too. If you’d like more assistance with acquisition, visit our [support](/support/) page.
