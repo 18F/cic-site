@@ -24,7 +24,7 @@ Why is government so focused on cloud adoption? It’s because cloud provides a 
 
 Before cloud computing, if you wanted compute, storage, and other IT services you first needed to buy everything yourself: physical servers, network equipment, racks, cabling, etc. Then in a secure, air conditioned and climate controlled room (something you had to figure out yourself), you would take your recently bought IT equipment and unpack it, install it, connect it, configure it, assign it, manage it, and monitor it. When something broke, it was your job to fix it; when something became obsolete, it was your job to update it.
 
-With cloud computing, your organization can provision powerful compute, storage, other IT services, and even software running in the data centers of cloud service providers (CSPs). Rather than buy and manage everything yourself, you can simply rent only what you need — the cloud is just someone else’s computer.
+With cloud computing, your organization can provision powerful computing, storage, software, and IT services, and even software running in the data centers of cloud service providers (CSPs). Rather than buy and manage everything yourself, you can simply rent only what you need — the cloud is just someone else’s computer.
 
 ## You benefit from economies of scale
 
