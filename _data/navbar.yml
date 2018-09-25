@@ -94,18 +94,6 @@ assigned:
                     -
                         text: Statement of Objectives (SOO)
                         relink: statement-of-objectives/
-                    -
-                        text: Statement of work (SOW)
-                        relink: statement-of-work/
-                    -
-                        text: Request for information (RFI)
-                        relink: request-for-information/
-                    -
-                        text: Request for proposal (RFP)
-                        relink: request-for-proposals/
-                    -
-                        text: Blanket purchase agreement (BPA)
-                        relink: blanket-purchase-agreement/
     -
         text: Implementation
         href: pages/implementation.md
