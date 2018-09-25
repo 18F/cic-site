@@ -19,7 +19,7 @@ But whether you’re focusing on the business or the technical aspects of implem
 * **Think creatively about cloud**. In addition to the obvious benefits, some of what cloud offers may surprise you. How can you reduce the time, effort, and investment currently required to maintain your IT portfolio?
 
 
-* **Start small and build over time**. [Pilot]() programs can help you determine the right products, the right services, and the right vendors to use. They can also help you demonstrate success early on, building support for IT modernization more broadly at your agency.
+* **Start small and build over time**. Pilot programs can help you determine the right products, the right services, and the right vendors to use. They can also help you demonstrate success early on, building support for IT modernization more broadly at your agency.
 
 
 * **Pay attention to your process**. Once you figure out what works in pilots, you’ll need a plan to transition cloud services at scale — templates that work over and over again. Keep an eye on what works and what doesn’t, and use every new program (or sprint, if you’re working in agile ways) to try something new.
