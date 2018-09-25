@@ -9,7 +9,7 @@ As established in the [Basics](/why-cloud/basics/) section, there is no one “c
 
 ## Determine your mission needs
 
-Your acquisition team are experts, and they — along with resources like GSA’s [Assisted Acquisition Services](https://aas.gsa.gov/index.html) and 18F’s [acquisition services](https://18f.gsa.gov/tags/acquisition-services/) — can help shepherd the process along. But generally speaking, you’ll have to consider the following things before you can successfully procure a cloud solution.
+Your acquisition team are experts, and they — along with resources like GSA’s [Assisted Acquisition Services (AAS)](https://aas.gsa.gov/index.html) and 18F’s [acquisition services](https://18f.gsa.gov/tags/acquisition-services/) — can help shepherd the process along. But generally speaking, you’ll have to consider the following things before you can successfully procure a cloud solution.
 
 * **Do you want to buy cloud technology and cloud services together or separately**? This may help you decide which purchasing vehicles to choose or which types of contracts will meet your needs.
 
@@ -37,6 +37,6 @@ Once you’ve got these questions answered, you can start making decisions about
 
 ## Leverage our acquisition templates
 Once you’ve conducted the market research to determine which solutions meet your need, how to bundle services and labor, and where to solicit your request, you can leverage our cloud-friendly [acquisition templates](/templates/). 
-Get help
 
+## Get help
 Cloud acquisition is rarely simple, but if done well it can drastically improve your capabilities and save money, too. If you’d like more assistance with acquisition, visit our [support](/support/) page.
