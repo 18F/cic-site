@@ -137,10 +137,7 @@ assigned:
                 href: pages/implementation/technical.md
                 show_in_menu: true
                 show_in_footer: false
-                children:
-                    - 
-                        text: Compliance
-                        relink: compliance/
+                children:       
                     - 
                         text: Maintenance
                         relink: maintenance/
