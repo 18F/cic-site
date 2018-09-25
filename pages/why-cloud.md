@@ -18,19 +18,19 @@ link_cards:
     permalink: /implementation/
 ---
 
-Why is government so focused on cloud adoption? It’s because cloud provides a new model of IT delivery — one that can save agencies time, effort, labor, and worry, freeing them up to better deliver on their mission. There are many benefits to cloud computing, but below are some of the most commonly cited.
+Why is government so focused on cloud adoption? It’s because cloud provides a new model of IT delivery — one that can save time, effort, labor, and worry, freeing you up to better deliver on your mission. There are many benefits to cloud computing, but below are some of the most commonly cited.
 
 ## You’re responsible for less
 
 Before cloud computing, if you wanted compute, storage, and other IT services you first needed to buy everything yourself: physical servers, network equipment, racks, cabling, etc. Then in a secure, air conditioned and climate controlled room (something you had to figure out yourself), you would take your recently bought IT equipment and unpack it, install it, connect it, configure it, assign it, manage it, and monitor it. When something broke, it was your job to fix it; when something became obsolete, it was your job to update it. 
 
-With cloud computing, your organization can provision powerful compute, storage, other IT services, and even software running in the data centers of cloud service providers (CSPs). Rather than buy and manage everything yourself, you can simply rent only what you need — the cloud is just someone else’s computer. 
+With cloud computing, your organization can provision powerful computing, storage, software, and IT services. Rather than buy and manage everything yourself, you can simply rent only what you need — the cloud is just someone else’s computer. 
 
 ## You benefit from economies of scale
 
-An individual agency can never match the level of scale that a large CSP can — and nor should they want to. Just as it’s your job to deliver on mission objectives, it’s a CSP’s job to build, maintain, and optimize infrastructure, operations, and software across their networks.
+An individual agency can never match the level of scale that a large CSP can — and nor should it want to. Just as it’s your job to deliver on mission objectives, it’s a CSP’s job to build, maintain, and optimize infrastructure, operations, and software across its networks.
 
-The economies of scale available with the cloud allows CSPs to purchase and refresh large volumes of infrastructure constantly and at very low costs. Customers then reap the benefits of decreasing cloud costs, increased performance, better security from improved infrastructure, and enhanced functionality through system-wide innovation.
+The economies of scale available with the cloud allow CSPs to purchase and refresh large volumes of infrastructure constantly and at very low costs. Customers then reap the benefits of decreasing cloud costs, increased performance, better security from improved infrastructure, and enhanced functionality through system-wide innovation.
 
 ## You can optimize your entire IT portfolio
 
