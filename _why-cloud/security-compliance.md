@@ -1,6 +1,6 @@
 ---
 layout: sidenav-page
-title: Security and compliance
+title: Security compliance
 permalink: /why-cloud/security-compliance/
 sidenav_ref: why-cloud
 ---
