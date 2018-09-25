@@ -91,21 +91,9 @@ assigned:
                 show_in_menu: true
                 show_in_footer: false
                 children:
-                    - 
-                        text: Statment of objectives (SOO)
+                    -
+                        text: Statement of Objectives (SOO)
                         relink: statement-of-objectives/
-                    -
-                        text: Statement of work (SOW)
-                        relink: statement-of-work/
-                    -
-                        text: Request for information (RFI)
-                        relink: request-for-information/
-                    -
-                        text: Request for proposal (RFP)
-                        relink: request-for-proposals/
-                    -
-                        text: Blanket purchase agreement (BPA)
-                        relink: blanket-purchase-agreement/
     -
         text: Implementation
         href: pages/implementation.md
@@ -137,20 +125,17 @@ assigned:
                 href: pages/implementation/technical.md
                 show_in_menu: true
                 show_in_footer: false
-                children:
-                    - 
-                        text: Compliance
-                        relink: compliance/
+                children:       
                     - 
                         text: Maintenance
                         relink: maintenance/
-                    - 
+                    -
                         text: Migration
                         relink: migration/
-                    - 
+                    -
                         text: Scaling
                         relink: scaling/
-                    - 
+                    -
                         text: Test environments
                         relink: test-environments/
     -
@@ -159,7 +144,7 @@ assigned:
         permalink: /support/
         sidenav_ref: support
         show_in_menu: true
-        show_in_footer: false 
+        show_in_footer: false
         helper_text: Help from cloud experts
 
 unassigned: []

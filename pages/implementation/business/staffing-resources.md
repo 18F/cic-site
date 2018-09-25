@@ -24,5 +24,5 @@ System administrators and other IT staff involved in the maintenance of physical
 
 In addition to retraining current staff, you may want to call on the services of contracted cloud professionals. However, make sure you choose suppliers with public sector expertise or who are knowledgeable of the unique restrictions government faces. While the parity between commercial and public sector cloud offerings is increasing, you may still end up with professionals who are adept at developing solutions based only on a commercial toolbox of CSP services. This is less than ideal for those suppliers, too; you may be paying for an expert who has a full breadth of cloud service skills, but only using a fraction of that knowledge.
 
-Only some CSP services will be FedRAMP approved. Choosing a vendor outside of that category is possible, but will require additional agency resources (funding) for certification and accreditation. 
+Only some CSP services will be [FedRAMP](https://fedramp.gov/) approved. Choosing a vendor outside of that category is possible, but will require additional agency resources (funding) for certification and accreditation. 
 

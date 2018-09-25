@@ -24,7 +24,7 @@ link_cards:
 
 Cloud offerings are usually organized in one of two ways: either by deployment model (what the product is) or business need (what the product does). 
 
-Government procurement is typically organized around deployment model rather than business need. Doing so allows government to both align with [NIST guidance](https://csrc.nist.gov/publications/detail/sp/800-145/final) and to offer simplified, cost-effective acquisition via [blanket purchase agreements](https://www.gsa.gov/technology/technology-purchasing-programs/cloud-acquisition-vehicles). Industry, on the other hand, tends to organize its offerings around what a cloud solution can help you accomplish.
+Government procurement is typically organized around deployment model rather than business need. Doing so allows government to both align with [NIST guidance](https://csrc.nist.gov/publications/detail/sp/800-145/final) and to offer simplified, cost-effective acquisition via [cloud acquisition vehicles](https://www.gsa.gov/technology/technology-purchasing-programs/cloud-acquisition-vehicles). Industry, on the other hand, tends to organize its offerings around what a cloud solution can help you accomplish.
 
 Although you’ll ultimately choose an IaaS, PaaS, or SaaS solution, start by considering your business need rather than your deployment model. There may be products that accomplish your needs with more automation or less compliance work than you anticipate.
 
