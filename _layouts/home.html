@@ -2,47 +2,55 @@
 layout: base
 ---
 
-<section>
-  <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
+  <section class="usa-hero">
     <div class="usa-grid">
-      <div class="usa-width-whole hero-content">
-        <h1>{{ page.hero-text }}</h1>
-        <a class="usa-button" href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
+      <div class="usa-width-one-third">
+          <div class="usa-hero-callout usa-section-dark">
+            <h2>
+              <span class="usa-hero-callout-alt">{{ page.hero-text }}</span>
+            </h2>
+      
+      
+            <h3>{{ page.hero-sub-text }}</h3>
+          </div>
+        </div>
+        <div class="usa-width-one-half">
+           <h3>Whether you’re piloting a program or migrating an agency, we can help you:</h3>
+          <ul>
+            <li>Learn how and why cloud matters to your mission</li>
+            <li>Build buy-in and support for IT modernization</li>
+            <li>Explore GSA's tools for adoption</li>
+          </ul>
+
+        </div>
+    </div>
+  </section>
+
+
+
+  <section class="usa-section usa-graphic_list">
+    <div class="usa-grid">
+    {% if page.link_cards %}
+    <div class="project-container">
+      <div class="usa-grid">
+        {% for card in page.link_cards %}
+        <article class="card usa-width-one-third">
+          <a class="card-link" href="{{ card.permalink | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">
+            <div class="card-banner">
+              <img src="./assets/img/{{ card.image }}" />
+              <h3 class="card-description">
+                <span>{{ card.title }}</span>
+              </h3>
+              <p class="card-summary">{{ card.summary }}</p>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
       </div>
     </div>
-  </div>
-</section>
-
-<section class="usa-grid usa-section">
-    <h2>Work</h2>
-    {% include projects.html %}
-</section>
-
-{% if page.banner-heading %}
-<section class="usa-section banner tagline">
-  <div class="usa-grid">
-    <div class="usa-width-one-whole usa-end-row">
-      <h2>{{ page.banner-heading }}</h2>
-      {% if page.banner-text %}
-        <p>{{ page.banner-text }}</p>
-      {% endif %}
-      {% if page.banner-button-text %}
-      <div class="center-content">
-        <a href="{{ page.banner-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner-button-text }}</a>
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-whole usa-end-row">
-    {{ content }}
-    {% if page.content-button-link %}
-      <a href="{{ page.content-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.content-button-text }}</a>
     {% endif %}
-  </div>
-</section>
+    </div>
+  </section>
 
-{% include contact.html %}
+
+

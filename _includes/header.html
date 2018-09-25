@@ -1,70 +1,127 @@
-<a href="#main" class="usa-skipnav">Skip to main content</a>
-
-<header class="usa-header usa-header-basic" role="banner">
-  <!-- Gov banner BEGIN -->
-  <div class="usa-banner">
-    <div class="usa-accordion">
-      <header class="usa-banner-header">
-        <div class="usa-grid usa-banner-inner">
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
         <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/us_flag_small.png" alt="U.S. flag">
         <p>An official website of the United States government</p>
-        <button class="usa-accordion-button usa-banner-button"
-          aria-expanded="false" aria-controls="gov-banner">
+        <button class="usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner">
           <span class="usa-banner-button-text">Here's how you know</span>
         </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-dot-gov.svg"
+          alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br> Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure
+            you’re
+            on a federal government site.
+          </p>
         </div>
-      </header>
-      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
-        <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-dot-gov.svg" alt="Dot gov">
-          <div class="usa-media_block-body">
-            <p>
-              <strong>The .gov means it’s official.</strong>
-              <br>
-              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
-            </p>
-          </div>
-        </div>
-        <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-https.svg" alt="SSL">
-          <div class="usa-media_block-body">
-            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
-          </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-https.svg"
+          alt="Https">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br> The
+            <strong>https://</strong> ensures that you are connecting to the official website and that any information
+            you provide
+            is encrypted and transmitted securely.
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Gov banner END -->
-
+</section>
+<header id="usa-nav-primary" class="usa-header usa-header-extended " role="banner">
   <div class="usa-nav-container">
     <div class="usa-navbar">
-      <button class="usa-menu-btn">Menu</button>
-      <div class="usa-logo" id="logo">
+      <div class="usa-logo" id="basic-logo">
         <em class="usa-logo-text">
-          <a href="{{ site.url }}" accesskey="1" title="Home" aria-label="Home">
-          {% if site.logo %}
-            <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-          {% else %}
-            <h1 class="usa-header-title">{{ site.title }}</h1>
-          {% endif %}
+          <a href="{{ site.baseurl }}/" title="Home" aria-label="Home">
+            {% if site.logo %}
+            <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}"> {{site.title}}
+            {% endif %}
           </a>
         </em>
       </div>
+      <button class="usa-menu-btn">Menu</button>
     </div>
+
     <nav role="navigation" class="usa-nav">
+
       <button class="usa-nav-close">
-        <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="close">
       </button>
       <ul class="usa-nav-primary usa-accordion">
-      {% assign navs = site.data.navbar.assigned %}
-      {% for nav in navs %}
-        {% if nav.show_in_menu %}
-        <li>
-          <a class="usa-nav-link" href="{{ nav.permalink | prepend: site.baseurl }}"><span>{{ nav.text }}</span></a>
-        </li>
-        {% endif %}
-      {% endfor %}
+        {% assign navs = site.data.navbar.assigned %} 
+          {% for nav in navs %}
+           {% if nav.show_in_menu %}
+            <li>
+               {% if nav.children %}
+              <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="basic-nav-section-{{ nav.sidenav_ref }}">
+                <span>{{ nav.text }}</span>
+                {% if nav.helper_text %}
+                  <span class="helper">{{ nav.helper_text }}</span>
+                {% endif %}
+              </button>
+              <ul id="basic-nav-section-{{ nav.sidenav_ref }}" class="usa-nav-submenu">
+                <li>
+                  <a href="{{ nav.permalink | prepend: site.baseurl }}">Overview</a>
+                </li>
+                {% for child in nav.children %}
+                <li>
+                  <a href="{{ child.permalink | prepend: site.baseurl }}">{{ child.text }}</a>
+                </li>
+                 {% endfor %}
+
+                </ul>
+               {% else %}
+              <a class="usa-nav-link" href="{{ nav.permalink | prepend: site.baseurl }}">
+                <span>{{ nav.text }}</span>
+                {% if nav.helper_text %}
+                <span class="helper">{{ nav.helper_text }}</span>
+                {% endif %}
+              </a>
+               {% endif %}
+            </li>
+             {% endif %}
+          {% endfor %}
       </ul>
-    </nav>
+      <div class="usa-nav-secondary">
+        <form class="usa-search usa-search-small js-search-form" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8"
+          method="get">
+          <div role="search">
+            <input name="utf8" type="hidden" value="&#x2713;" />
+        
+            <input type="hidden" name="affiliate" id="affiliate" value="gsa_cic" />
+            <label class="usa-sr-only" for="query">Search small</label>
+            <input type="search" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
+            <button type="submit" name="commit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+      
+      
+        <ul class="usa-unstyled-list usa-nav-secondary-links">
+      
+          <li class="js-search-button-container">
+            <button class="usa-header-search-button js-search-button">Search</button>
+          </li>
+      
+        </ul>
+      </div>
+      
+      </div>
+      </nav>
   </div>
 </header>
+<div class="usa-overlay"></div>
+<main id="main-content"></main>

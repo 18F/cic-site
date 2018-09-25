@@ -24,7 +24,7 @@ Previews for changes in progress are noted in the pull-requests where they're be
   - [Presentations](https://drive.google.com/drive/u/0/folders/10UKDyLK1p7wSANPrPkE8sLcm_AJX5MlX) (Google Drive, accessible only to the project team)
 
 ---
-# How do I set up and run the site locally?
+## How do I set up and run the site locally?
 
 This is a Jekyll site. It is a simple prototype site to showcase the work of an organization with a few different page types.
 
@@ -58,6 +58,59 @@ Commit your changes and push to your forked repo:
 You can now submit a [pull request](https://help.github.com/articles/about-pull-requests/) to the 18F repo with your changes.
 
 
+### 
+Things you'll want to have:
+
+* An account on [Federalist](https://federalist.18f.gov/).
+* [Jekyll](https://jekyllrb.com/docs/installation/) installed on your computer.
+
+Fork this repo, and then clone to your local machine. Create a new branch for your changes:
+
+```bash
+~$ git clone https://github.com/18F/cic-site.git
+~$ git checkout -b <your-branch-name>
+```
+
+When you have made your changes, you can test them locally using Jekyll. From the directory where you are working, simply type: `jekyll serve`. You should be able to view your changes at `http://127.0.0.1:4000/`.
+
+Commit your changes and push to your forked repo:
+
+```bash
+~$ git commit -am 'My new changes!'
+~$ git push origin <your-branch-name>
+```
+
+You can now submit a [pull request](https://help.github.com/articles/about-pull-requests/) to the 18F repo with your changes.
+
+
+### Templates
+#### Page 
+Just a normal template that pulls in the global nav
+
+### Sidebar Page
+Has a sidebar layout that pulls from the `_data/navbar.yml` for the relavant section. That section is specified with the page metada key of `sidenav_ref: SITESECTION`
+
+### Overview Page
+Also includes the page sidbar basedo n the `sidenav_ref` key in the page meta data.
+
+An overview page can also include option page cards. To add this you must include the `link_cards` key in the page metadata. A page can have as many cards as you would like.
+
+For a card to be displayed it must be included as an yaml object item in the array. To do so please include the following. But please note that the link is optional:
+```
+link_cards:
+  - 
+    title: Item 1 Title
+    summary: Summary of the item 1
+    permalink: /item-1-link/
+  - 
+    title: Item 2 Title
+    summary: Summary of the item 2
+    permalink: /item-2-link/
+  - 
+    title: Item 3 without link
+    summary: A summary of the third item that has no link
+
+```
 ## 18F Open Source Policy
 
 This repository contains the official [Open Source Policy](policy.md) of [18F](https://18f.gsa.gov/) (a digital delivery team within the [General Services Administration](http://gsa.gov)).

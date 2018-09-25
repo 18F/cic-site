@@ -6,37 +6,145 @@ assigned:
         show_in_menu: false
         show_in_footer: false
     -
-        text: About
-        href: pages/about.md
-        permalink: /about/
+        text: Why cloud?
+        href: pages/why-cloud.md
+        sidenav_ref: why-cloud
+        permalink: /why-cloud/
         show_in_menu: true
         show_in_footer: false
-    -
-        text: Work
-        href: pages/projects.md
-        permalink: /projects/
-        show_in_menu: true
-        show_in_footer: false
+        helper_text: Overview of benefits
         children:
             -
-                text: 'Microloans for Farmers'
-                href: pages/projects/microloans-for-farmers.md
-                show_in_menu: false
+                text: Basics
+                permalink: /why-cloud/basics/
+                href: _why-cloud/basics.md
+                show_in_menu: true
+                show_in_footer: true
+            -
+                text: Security compliance
+                permalink: /why-cloud/security-compliance/
+                href: _why-cloud/security-compliance.md
+                show_in_menu: true
                 show_in_footer: false
             -
-                text: 'Reducing Summer Melt'
-                href: pages/projects/reducing-summer-melt.md
-                show_in_menu: false
-                show_in_footer: false
+                text: Technical capabilities
+                permalink: /why-cloud/technical-capabilities/
+                href: _why-cloud/technical-capabilities.md
+                show_in_menu: true
+                show_in_footer: true
     -
-        text: 'Team'
-        href: pages/team.md
-        permalink: /team/
+        text: Find cloud solutions
+        href: pages/cloud-solutions.md
+        permalink: /cloud-solutions/
+        sidenav_ref: cloud-solutions
         show_in_menu: true
         show_in_footer: false
+        helper_text: Support your mission
+        children:
+            -
+                text: Application development
+                permalink: /cloud-solutions/application-development/
+                href: _cloud-solutions/application-development.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Research and analytics
+                permalink: /cloud-solutions/research-and-analytics/
+                href: _cloud-solutions/research-and-analytics.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Identity and security
+                permalink: /cloud-solutions/identity-and-security/
+                href: _cloud-solutions/identity-and-security.md
+                show_in_menu: true
+                show_in_footer: false
+            -
+                text: Collaboration and productivity
+                permalink: /cloud-solutions/collaboration-and-productivity/
+                href: _cloud-solutions/collaboration-and-productivity.md
+                show_in_menu: true
+                show_in_footer: falses
     -
-        text: 'Project data'
-        href: _data/projects.yml
-        show_in_menu: false
+        text: Acquisition
+        href: pages/acquisition.md
+        permalink: /acquisition/
+        sidenav_ref: acquisition
+        show_in_menu: true
         show_in_footer: false
+        helper_text: How to buy
+        children:
+            -
+                text: Procurement process
+                permalink: /acquisition/procurement-process/
+                href: pages/acquisition/procurement-process.md
+                show_in_menu: true
+                show_in_footer: false
+                children:
+                    - text: Pricing
+                      relink: pricing/
+
+            -
+                text: Templates
+                permalink: /acquisition/templates/
+                href: pages/acquisition/templates.md
+                show_in_menu: true
+                show_in_footer: false
+                children:
+                    -
+                        text: Statement of Objectives (SOO)
+                        relink: statement-of-objectives/
+    -
+        text: Implementation
+        href: pages/implementation.md
+        permalink: /implementation/
+        sidenav_ref: implementation
+        show_in_menu: true
+        show_in_footer: false
+        helper_text: How to deploy
+        children:
+            -
+                text: Business
+                permalink: /implementation/business/
+                href: pages/implementation/business.md
+                show_in_menu: true
+                show_in_footer: false
+                children:
+                    -
+                        text: Staffing resources
+                        relink: staffing-resources/
+                    -
+                        text: Training
+                        relink: training/
+                    -
+                        text: Change management
+                        relink: change-management/
+            -
+                text: Technical
+                permalink: /implementation/technical/
+                href: pages/implementation/technical.md
+                show_in_menu: true
+                show_in_footer: false
+                children:       
+                    - 
+                        text: Maintenance
+                        relink: maintenance/
+                    -
+                        text: Migration
+                        relink: migration/
+                    -
+                        text: Scaling
+                        relink: scaling/
+                    -
+                        text: Test environments
+                        relink: test-environments/
+    -
+        text: Support
+        href: pages/support.md
+        permalink: /support/
+        sidenav_ref: support
+        show_in_menu: true
+        show_in_footer: false
+        helper_text: Help from cloud experts
+
 unassigned: []
