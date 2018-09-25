@@ -40,7 +40,7 @@ Because of cloud’s functionality, this kind of assessment can continue post-mi
 
 ## You can reduce your project backlog
 
-In traditional IT environments, servers are a bottleneck because they limit resources based on costs, security controls, or the level of operations staffing. Virtualization significantly reduces that barrier, and [true cloud deployments](/why-cloud/basics/) reduce it more — making it easier to get support for your backlog of development projects, proofs-of-concept, pilots, and testing environments. Note: while faster development times are a plus, organizations need to also account for any resultant increased costs. You may benefit by stressing value to senior leadership, in addition to cost (e.g., spend 10% more, but get 50% more in delivery).
+In traditional IT environments, servers are a bottleneck because they limit resources based on costs, security controls, or the level of operations staffing. Virtualization significantly reduces that barrier, and [true cloud deployments]({{ site.baseurl }}/why-cloud/basics/) reduce it more — making it easier to get support for your backlog of development projects, proofs-of-concept, pilots, and testing environments. Note: while faster development times are a plus, organizations need to also account for any resultant increased costs. You may benefit by stressing value to senior leadership, in addition to cost (e.g., spend 10% more, but get 50% more in delivery).
 
 ## You can keep better track of your work
 

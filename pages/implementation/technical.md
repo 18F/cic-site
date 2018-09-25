@@ -15,7 +15,7 @@ Once you’ve documented your existing assets, move to rationalization. What’s
 
 After you know this, the final step is actually planning for migration. This includes risk assessments and financial considerations. What can you afford to do now, and what can be budgeted for in the new fiscal year? What’s a good system to use as a pilot — something that can accommodate your learning curve?
 
-If this isn’t work you have capacity to do on your own, there are vendors who can help support you. At the request of OMB, GSA has developed a set of [statement of objectives (SOO)](/acquisition/templates/statement-of-objectives/) templates you can use to acquire migration support for things like assessment, planning, execution, and decommissioning. They’re available in our [templates](/acquisition/templates/) section.
+If this isn’t work you have capacity to do on your own, there are vendors who can help support you. At the request of OMB, GSA has developed a set of [statement of objectives (SOO)]({{ site.baseurl }}/acquisition/templates/statement-of-objectives/) templates you can use to acquire migration support for things like assessment, planning, execution, and decommissioning. They’re available in our [templates]({{ site.baseurl }}/acquisition/templates/) section.
 
 But whether you take it on yourself or bring in outside help, all agencies — regardless of their existing network documentation — should map out their enterprise networks when they decide to move to the cloud. Many agencies thought they knew their networks were surprised when they entered the discovery phase and found unknown endpoints or unexpected traffic patterns. 
 

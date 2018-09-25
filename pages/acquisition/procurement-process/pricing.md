@@ -6,7 +6,7 @@ sidenav_ref: acquisition
 parent: /acquisition/procurement-process/
 ---
 
-Because cloud is built around services, not products, it can be difficult to compare vendors apples-to-apples. Each cloud service provider (CSP) will offer different functionality, will be backed up by different infrastructure configurations, and will offer billing in different units. The more customizable your [cloud model](/why-cloud/basics/), the more complicated these calculations are likely to be — software as a service (SaaS) solutions are typically sold via individual fixed-price licenses, infrastructure as a service (IaaS) solutions are typically metered, and platform as a service (PaaS) solutions can be either (and sometimes both).
+Because cloud is built around services, not products, it can be difficult to compare vendors apples-to-apples. Each cloud service provider (CSP) will offer different functionality, will be backed up by different infrastructure configurations, and will offer billing in different units. The more customizable your [cloud model]({{ site.baseurl }}/why-cloud/basics/), the more complicated these calculations are likely to be — software as a service (SaaS) solutions are typically sold via individual fixed-price licenses, infrastructure as a service (IaaS) solutions are typically metered, and platform as a service (PaaS) solutions can be either (and sometimes both).
 
 While cloud’s pricing structure is different than other products or services you may have worked with before, there are ways to make these differences work on your behalf. Here are a few things to keep in mind as you consider your investment in cloud.
 
