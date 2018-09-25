@@ -1,12 +1,11 @@
 ---
 layout: sidenav-page
-title: Scaling
+title: Scaling your tech
 permalink: /implementation/technical/scaling/
 sidenav_ref: implementation
 parent: /implementation/technical/
 ---
 
-## Scaling your tech
 Scaling, also referred to as “rapid elasticity,” is one of NIST’s [five essentials characteristics](/why-cloud/basics/) of cloud. A true cloud environment will be able to quickly provision anything you ask for — you should never “run out” of resources. (This is different from reaching a cap; a cap is an imposed limit that can be lifted, not a hard limit to what’s possible.) 
 
 A decision to scale resources can be made either on the basis of something that’s already happened or something you know is likely to happen in the future. For instance, if you’ve noticed that your system load is reaching a point where it takes more than half a second to respond to your request, you might want to split your workload to reduce that latency time. Alternately, if you know traffic to your website will drastically increase at particular times of year (for instance, tax season or the holidays), you can scale up in advance of the busy season and scale down when the rush is over.
