@@ -26,6 +26,14 @@
       </div>
 
       <div class="usa-footer-contact-links usa-width-one-half">
+        <address>
+          {% if site.footer.contact.name %}
+            <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
+          {% endif %}
+          {% if site.footer.contact.phonenumber %}
+            <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
+          {% endif %}
+        </address>
 
       </div>
     </div>
