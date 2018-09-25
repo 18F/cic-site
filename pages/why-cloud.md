@@ -38,8 +38,6 @@ A cloud readiness assessment is an important part of any cloud migration strateg
 
 Because of cloud’s functionality, this kind of assessment can continue post-migration. You may be able to get new insights about system usage, composition, and structure via your CSP’s tools — insight that you may not already have from your existing data centers. 
 
-Finally, application owners want to evaluate new modernization opportunities which are not available with a traditional data center, such as serverless architectures, where organizations are charged by the number and duration of a method call  (e.g. microservices charged per every 100 ms). Serverless architectures allow methods to be chained together based upon different triggers to create more complex applications. In addition, such systems can be honed to ensure that methods are compartmentalized enough to deliver maximum usability.
-
 ## You can reduce your project backlog
 
 In traditional IT environments, servers are a bottleneck because they limit resources based on costs, security controls, or the level of operations staffing. Virtualization significantly reduces that barrier, and [true cloud deployments](/why-cloud/basics/) reduce it more — making it easier to get support for your backlog of development projects, proofs-of-concept, pilots, and testing environments. Note: while faster development times are a plus, organizations need to also account for any resultant increased costs. You may benefit by stressing value to senior leadership, in addition to cost (e.g., spend 10% more, but get 50% more in delivery).
