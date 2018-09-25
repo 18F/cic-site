@@ -28,7 +28,7 @@ With cloud computing, your organization can provision powerful computing, storag
 
 ## You benefit from economies of scale
 
-An individual agency can never match the level of scale that a large CSP can — and nor should they want to. Just as it’s your job to deliver on mission objectives, it’s a CSP’s job to build, maintain, and optimize infrastructure, operations, and software across their networks.
+An individual agency can never match the level of scale that a large CSP can — and nor should it want to. Just as it’s your job to deliver on mission objectives, it’s a CSP’s job to build, maintain, and optimize infrastructure, operations, and software across their networks.
 
 The economies of scale available with the cloud allows CSPs to purchase and refresh large volumes of infrastructure constantly and at very low costs. Customers then reap the benefits of decreasing cloud costs, increased performance, better security from improved infrastructure, and enhanced functionality through system-wide innovation.
 
