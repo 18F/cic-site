@@ -9,7 +9,7 @@ hero-button-link: /about/
 link_cards:
   - 
     title: Cloud basics
-    image: policies.svg
+    image: cloud-basics.svg
     permalink: /why-cloud/basics/
   - 
     title: Acquisition
