@@ -33,6 +33,30 @@ This particular site is made for use with [Federalist](https://github.com/18f/fe
 This template uses the CSS and JavaScript from the [U.S. Web Design System](https://standards.18f.gov). To update the version of the system, [download the code](https://standards.usa.gov/getting-started/download/) from the website. Unzip the download and drop the entire folder (which should be named something like `uswds-1.1.0`) into `assets/vendor`.
 
 In your `_config.yml`, update the `wds-version` value to the new version number. This should match the version number in the name of the folder you just downloaded. In the case of our example, it would look like this: `wds-version: 1.1.0`. You'll need to restart your Jekyll server to see the new code take effect.
+### 
+Things you'll want to have:
+
+* An account on [Federalist](https://federalist.18f.gov/).
+* [Jekyll](https://jekyllrb.com/docs/installation/) installed on your computer.
+
+Fork this repo, and then clone to your local machine. Create a new branch for your changes:
+
+```bash
+~$ git clone https://github.com/18F/cic-site.git
+~$ git checkout -b <your-branch-name>
+```
+
+When you have made your changes, you can test them locally using Jekyll. From the directory where you are working, simply type: `jekyll serve`. You should be able to view your changes at `http://127.0.0.1:4000/`.
+
+Commit your changes and push to your forked repo:
+
+```bash
+~$ git commit -am 'My new changes!'
+~$ git push origin <your-branch-name>
+```
+
+You can now submit a [pull request](https://help.github.com/articles/about-pull-requests/) to the 18F repo with your changes.
+
 
 ### 
 Things you'll want to have:
