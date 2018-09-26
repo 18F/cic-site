@@ -1,0 +1,598 @@
+---
+- name: Content Delivery Services
+  company: Akamai
+  impact_level: Moderate
+  service_level: IaaS
+  category: 'Content delivery networks (CDNs)'
+- name: CSRA / ARC-P Cloud
+  company: Autonomic Resources a wholly-owned subsidiary of CSRA LLC
+  impact_level: High
+  service_level: IaaS , PaaS
+  category: 'Compute'
+- name: CGI IaaS Cloud
+  company: CGI Federal
+  impact_level: Moderate
+  service_level: IaaS
+  category: 'Compute'
+- name: Cloud for Public Sector
+  company: Perspecta
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: 'Compute'
+- name: 'Economic Systems Federal Human Resources Navigator '
+  company: 'Economic Systems '
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Human resources'
+- name: SmartCloud for Government
+  company: IBM
+  impact_level: Moderate
+  service_level: IaaS
+  category: 'Compute'
+- name: MAX General Support Services
+  company: OMB
+  impact_level: Moderate
+  service_level: IaaS
+  category: 'Business management, Identity management'
+- name: 'MAX.gov Shared Services '
+  company: OMB
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: 'Business management, Identity management'
+- name: Federal Managed Cloud Services
+  company: Oracle
+  impact_level: Moderate
+  service_level: PaaS
+  category: 'Compute'
+- name: Adobe Connect Managed Services (ACMS-GC)
+  company: Adobe
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Learning management systems (LMS), Business management'
+- name: Adobe Experience Manager Managed Services (AEMMS-GC)
+  company: Adobe
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Business management'
+- name: Appian Cloud
+  company: Appian
+  impact_level: Moderate
+  service_level: PaaS
+  category: 'Business management'
+- name: SecureCloud
+  company: Contegix
+  impact_level: Moderate
+  service_level: PaaS
+  category: 'Compute'
+- name: Rackspace Government Cloud
+  company: Rackspace Government Solutions
+  impact_level: Moderate
+  service_level: PaaS
+  category: 'Compute'
+- name: Fortify on Demand
+  company: MicroFocus
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Continuous monitoring'
+- name: Huddle Enterprise Cloud Content Collaboration and File Sharing Portal for
+    Government
+  company: Huddle US
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Business management'
+- name: 'MaaS360 Enterprise Mobility Management '
+  company: IBM
+  impact_level: Moderate
+  service_level: SaaS
+  category: 'Device management'
+- name: GovDataHosting Cloud Platform
+  company: IT-CNP
+  impact_level: Moderate (High In Process)
+  service_level: IaaS
+  category: 'Compute, Storage'
+- name: 'MicroPact Product Suite '
+  company: MicroPact
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: Oracle Service Cloud
+  company: Oracle
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: 'Federal Cloud (VFC) '
+  company: 'Virtustream '
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: QTS Government Cloud
+  company: QTS
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: BMC Remedy Fed-SaaS (BMC Remedy OnDemand for Public Sector)
+  company: BMC Software
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: CoSo Cloud FedRAMP Managed Service Platform
+  company: CoSo Cloud, LLC.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Proofpoint Email Archive
+  company: Proofpoint, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Oracle Service Cloud (DOD)
+  company: Oracle
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: 'Cisco WebEx  '
+  company: Cisco Systems Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: SAIC Cloud Infrastructure Service
+  company: SAIC
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: Esri Managed Cloud Services
+  company: Esri
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: GDIT Cloud
+  company: General Dynamics Information Technology (GDIT)
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: ServiceNow Service Automation Government Cloud Suite
+  company: ServiceNow
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Acquia Cloud
+  company: Acquia Inc.
+  impact_level: Moderate
+  service_level: PaaS
+  category: ''
+- name: GovDelivery Communications Cloud
+  company: Granicus
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: GovPoint Cloud Services
+  company: MIS Sciences Corporation
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: FedConnect
+  company: Compusearch Software Systems, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Accenture Federal Cloud ERP
+  company: Accenture
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: AWS GovCloud
+  company: Amazon
+  impact_level: High
+  service_level: IaaS , PaaS
+  category: ''
+- name: Secure UC
+  company: Collab9
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: IBM Cloud for Government
+  company: IBM
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: eSignLive, E-Signature and Digital Signature Service by Project Hosts
+  company: VASCO
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Cloud Managed Services for Government - DoD
+  company: IBM
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: PRISM SaaS
+  company: Compusearch Software Systems, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: USDA National Information Technology Center
+  company: United States Department of Agriculture
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: Airwatch by VMware Government Services (AGS)
+  company: AirWatch
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Qualys Cloud Platform
+  company: Qualys
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: MobileIron Government Cloud
+  company: MobileIron
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Deloitte Federal Technology Center
+  company: Deloitte
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: 18F Cloud.gov
+  company: 18F
+  impact_level: Moderate
+  service_level: PaaS
+  category: ''
+- name: Cisco Hosted Collaboration Solution for Government (HCS-G)
+  company: Cisco Systems Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Customer eXperience Platform
+  company: General Dynamics Information Technology (GDIT)
+  impact_level: Moderate
+  service_level: PaaS
+  category: ''
+- name: BlackBerry Cloud - AtHoc Services for Government
+  company: BlackBerry
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: 'eCase '
+  company: AINS
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: Web Development and Hosting
+  company: PowerTrain Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Private Cloud
+  company: Skillsoft
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: CylancePROTECT
+  company: Cylance, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: FireEye Email Threat Prevention (ETP) Security Service
+  company: FireEye, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: DocuSign Federal
+  company: DocuSign
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Decision Lens Software
+  company: Decision Lens Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Taleo Cloud - U.S. Government Cloud
+  company: Oracle
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: SpringCM
+  company: SpringCM
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Workplace.gov Community Cloud (WC2)
+  company: United States Department of the Treasury
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: mLINQS Hosting Service
+  company: mLINQS
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Accenture Insights Platform (AIP) For Government
+  company: Accenture
+  impact_level: Moderate
+  service_level: PaaS
+  category: ''
+- name: Azure Commercial Cloud
+  company: Microsoft
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: Azure Government
+  company: Microsoft
+  impact_level: High
+  service_level: IaaS , PaaS
+  category: ''
+- name: Federal Cloud Discovery Services (FCDS)
+  company: Complete Discovery Source
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Northrop Grumman Cloud Platform
+  company: Northrop Grumman
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: NICE inContact CXone Customer Experience Platform
+  company: NICE inContact
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: iSite Contract Management Portal
+  company: iSite LLC
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Salesforce Government Cloud
+  company: Salesforce
+  impact_level: Moderate
+  service_level: PaaS , SaaS
+  category: ''
+- name: FedRAMP Compliant CloudPlus
+  company: Edge Hosting, A DataBank Company
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: Druva inSync
+  company: 'Druva, Inc. '
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: IdeaScale Gov
+  company: IdeaScale
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Cloud Access Security Broker for Government
+  company: Skyhigh
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: SAP NS2 Cloud - SuccessFactors HCM Suite for Government
+  company: SAP National Security Services Inc. (SAP NS2)
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: AWS US East/West
+  company: Amazon
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: Cisco Cloudlock for Government
+  company: Cisco Systems Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: PTC Cloud Services
+  company: PTC
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Kiteworks Federal Cloud
+  company: Accellion
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Government Cloud - Common Controls
+  company: Oracle
+  impact_level: High
+  service_level: IaaS
+  category: ''
+- name: Dynamics 365 for Government
+  company: Microsoft
+  impact_level: High
+  service_level: SaaS
+  category: ''
+- name: Google Services (Google Cloud Platform Products and underlying Infrastructure)
+  company: Google
+  impact_level: Moderate
+  service_level: IaaS, PaaS, SaaS
+  category: ''
+- name: Google G Suite
+  company: Google
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: The Apptio Technology Business Management (TBM)
+  company: Apptio
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: IBM Connections Social
+  company: IBM
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Adobe Creative Cloud for enterprise
+  company: Adobe
+  impact_level: Li-SaaS
+  service_level: SaaS
+  category: ''
+- name: Adobe Document Cloud (PDF Services & Adobe Sign)
+  company: Adobe
+  impact_level: Li-SaaS
+  service_level: SaaS
+  category: ''
+- name: Socrata Data Platform
+  company: Socrata
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Office 365 Multi-Tenant & Supporting Services
+  company: Microsoft
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: CloudSeed
+  company: Knight Point Systems
+  impact_level: Moderate
+  service_level: IaaS
+  category: ''
+- name: SAP NS2 Secure Node with SuccessFactors Suite - DoD
+  company: SAP National Security Services Inc. (SAP NS2)
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Identity as a Service (IDaaS)
+  company: Okta
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Federal Private Cloud
+  company: Project Hosts
+  impact_level: Moderate
+  service_level: PaaS
+  category: ''
+- name: Blackboard Learn SaaS
+  company: Blackboard
+  impact_level: Li-SaaS
+  service_level: SaaS
+  category: ''
+- name: 'Avue Digital Services '
+  company: Avue Technologies
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Wdesk
+  company: Workiva
+  impact_level: Li-SaaS (Moderate In Process)
+  service_level: SaaS
+  category: ''
+- name: ORockCloud
+  company: ORock Technologies
+  impact_level: Moderate
+  service_level: IaaS , PaaS
+  category: ''
+- name: Enterprise Compliance Management Solution (ECMS)
+  company: TalaTek, LLC
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: ArcGIS Online (AGO)
+  company: Esri
+  impact_level: Li-SaaS
+  service_level: SaaS
+  category: ''
+- name: Qualtrics XM Platform
+  company: Qualtrics
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Infor Government Software as a Service (IGS) including the Enterprise Asset
+    Management (EAM) application
+  company: Infor Public Sector
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Innovative Discovery Government Cloud (IDGC)
+  company: Innovative Discovery, LLC
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Everbridge Suite
+  company: Everbridge
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Valimail Enforce Platform
+  company: Valimail
+  impact_level: Li-SaaS
+  service_level: SaaS
+  category: ''
+- name: TRAPWIRE Threat Detection and Analysis System
+  company: TRAPWIRE
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Zscaler Private Access - Government (VPN Replacement)
+  company: Zscaler
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Acendre Talent Management Solution Suite
+  company: Acendre, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: in3sight
+  company: 1901 Group
+  impact_level: Moderate
+  service_level: IaaS , SaaS
+  category: ''
+- name: Intelliworx Cloud
+  company: Intelliworx
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Box Enterprise Cloud Content Collaboration Platform
+  company: Box Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Managed Print Services for US Federal Government
+  company: Xerox Corporation
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Administrative Data Research Facility (ADRF)
+  company: New York University
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Integrated Logistics Management System
+  company: The Arcanum Group Inc.
+  impact_level: Low
+  service_level: SaaS
+  category: ''
+- name: OneStream XF Cloud
+  company: OneStream Software
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Unified Talent Management Suite (CUTMS)
+  company: Cornerstone OnDemand
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Tibbr
+  company: TIBCO
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Falcon Platform
+  company: CrowdStrike, Inc.
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Beacon
+  company: NetComm
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''
+- name: Symantec™ Email Security Service – Government, powered by Rackspace
+  company: Symantec Corporation
+  impact_level: Moderate
+  service_level: SaaS
+  category: ''

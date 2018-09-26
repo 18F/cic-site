@@ -1,0 +1,35 @@
+
+- Application development:
+    - Compute:
+        - name: 18F Cloud.gov
+          url: 18f-cloudgov
+    - Content delivery networks (CDNs)
+    - Databases
+    - Developer tools
+    - Networking
+    - Storage
+    - Cloud management tools:
+      - name: 1901 Group - in3sight
+        url: in3sight
+    - Containers
+- Research and analytics:
+    - Artificial intelligence and machine learning
+    - Big data
+    - Mapping and graphical information systems
+- Identity and security:
+    - Continuous monitoring
+    - Device management
+    - Identity management:
+        - name: Accellion - Kiteworks Federal Cloud
+          url: kiteworks-federal-cloud
+- Collaboration and productivity:
+    - Learning management systems (LMS)
+    - Business management:
+        - name: 4tell Solutions - 4tell Platform for Government™
+          url: 4tell-platform-for-government
+    - Customer relationships
+    - Email
+    - Human resources
+    - Public and media relations
+    - Telecommunications
+    - Help desk

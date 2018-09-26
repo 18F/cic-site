@@ -1,0 +1,173 @@
+[
+  [
+    {
+      "name": "Huddle Enterprise Cloud Content Collaboration and File Sharing Portal for Government",
+      "company": "Huddle US",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Business management"
+    },
+    {
+      "name": "Appian Cloud",
+      "company": "Appian",
+      "impact_level": "Moderate",
+      "service_level": "PaaS",
+      "category": "Business management"
+    },
+    {
+      "name": "Adobe Experience Manager Managed Services (AEMMS-GC)",
+      "company": "Adobe",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Business management"
+    }
+  ],
+  [
+    {
+      "name": "MicroPact Product Suite ",
+      "company": "MicroPact",
+      "impact_level": "Moderate",
+      "service_level": "PaaS , SaaS",
+      "category": "Business management, Customer relationships"
+    }
+  ],
+  [
+    {
+      "name": "MAX General Support Services",
+      "company": "OMB",
+      "impact_level": "Moderate",
+      "service_level": "IaaS",
+      "category": "Business management, Identity management"
+    },
+    {
+      "name": "MAX.gov Shared Services ",
+      "company": "OMB",
+      "impact_level": "Moderate",
+      "service_level": "PaaS , SaaS",
+      "category": "Business management, Identity management"
+    }
+  ],
+  [
+    {
+      "name": "Federal Cloud (VFC) ",
+      "company": "Virtustream ",
+      "impact_level": "Moderate",
+      "service_level": "IaaS",
+      "category": "Cloud management tools"
+    }
+  ],
+  [
+    {
+      "name": "Cloud for Public Sector",
+      "company": "Perspecta",
+      "impact_level": "Moderate",
+      "service_level": "IaaS , PaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "Federal Managed Cloud Services",
+      "company": "Oracle",
+      "impact_level": "Moderate",
+      "service_level": "PaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "SmartCloud for Government",
+      "company": "IBM",
+      "impact_level": "Moderate",
+      "service_level": "IaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "CSRA / ARC-P Cloud",
+      "company": "Autonomic Resources a wholly-owned subsidiary of CSRA LLC",
+      "impact_level": "High",
+      "service_level": "IaaS , PaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "CGI IaaS Cloud",
+      "company": "CGI Federal",
+      "impact_level": "Moderate",
+      "service_level": "IaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "SecureCloud",
+      "company": "Contegix",
+      "impact_level": "Moderate",
+      "service_level": "PaaS",
+      "category": "Compute"
+    },
+    {
+      "name": "Rackspace Government Cloud",
+      "company": "Rackspace Government Solutions",
+      "impact_level": "Moderate",
+      "service_level": "PaaS",
+      "category": "Compute"
+    }
+  ],
+  [
+    {
+      "name": "GovDataHosting Cloud Platform",
+      "company": "IT-CNP",
+      "impact_level": "Moderate (High In Process)",
+      "service_level": "IaaS",
+      "category": "Compute, Storage"
+    }
+  ],
+  [
+    {
+      "name": "Content Delivery Services",
+      "company": "Akamai",
+      "impact_level": "Moderate",
+      "service_level": "IaaS",
+      "category": "Content delivery networks (CDNs)"
+    }
+  ],
+  [
+    {
+      "name": "Fortify on Demand",
+      "company": "MicroFocus",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Continuous monitoring"
+    }
+  ],
+  [
+    {
+      "name": "Oracle Service Cloud",
+      "company": "Oracle",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Customer relationships"
+    }
+  ],
+  [
+    {
+      "name": "MaaS360 Enterprise Mobility Management ",
+      "company": "IBM",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Device management"
+    }
+  ],
+  [
+    {
+      "name": "Economic Systems Federal Human Resources Navigator ",
+      "company": "Economic Systems ",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Human resources"
+    }
+  ],
+  [
+    {
+      "name": "Adobe Connect Managed Services (ACMS-GC)",
+      "company": "Adobe",
+      "impact_level": "Moderate",
+      "service_level": "SaaS",
+      "category": "Learning management systems (LMS), Business management"
+    }
+  ]
+]
