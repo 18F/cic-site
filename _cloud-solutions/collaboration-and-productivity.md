@@ -1,5 +1,5 @@
 ---
-layout: overview-page
+layout: cloud-category
 title: Collaboration and productivity
 permalink: /cloud-solutions/collaboration-and-productivity/
 sidenav_ref: cloud-solutions
@@ -30,4 +30,4 @@ link_cards:
     summary: Give your staff the support they need
 ---
 
-Solutions to help you stay connected and organized.
+Use the [FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products?sort=productName&serviceModels=SaaS;IaaS,%20PaaS,%20SaaS&status=Compliant) to find FedRAMP compliant SaaS cloud solutions that help you stay connected and organized.

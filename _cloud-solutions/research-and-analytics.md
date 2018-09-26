@@ -1,5 +1,5 @@
 ---
-layout: overview-page
+layout: cloud-category
 title: Research and analytics
 permalink: /cloud-solutions/research-and-analytics/
 sidenav_ref: cloud-solutions
@@ -14,5 +14,5 @@ link_cards:
     title: Mapping and graphical information systems
     summary: Manage your geospatial data
 ---
-Solutions to help you make the most of your data.
 
+Use the [FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products?sort=productName)  to find cloud solutions that help you make the most of your data.
