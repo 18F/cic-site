@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+<div class="usa-grid usa-section usa-content">
+  {% include sidebar.html %}
+  <div class="usa-width-three-fourths usa-content" id="main-page-content" tabindex="-1">
+    <h1>{{ page.title }}</h1>
+    {% if page.image %}
+      <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>
+    {% endif %}
+    {% if page.image-credit %}
+      <span class="caption"><a href="{{page.image-credit}}" target="_blank">Photo credit</a> (Creative Commons)</span>
+    {% endif %}
+    {{ content }}
+
+    {% if page.link_cards %}
+    <div class="project-container cloud-category">
+      <div class="usa-grid">
+        {% for card in page.link_cards %}
+          <article class="card usa-width-one-third">
+            <!-- <a class="card-link" href="{{ card.permalink | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1"> -->
+            <div class="card-banner">
+              <h3 class="card-description">
+                <span>{{ card.title }}</span>
+              </h3>
+              <p class="card-summary">{{ card.summary }}</p>
+            </div>
+            <!-- </a> -->
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  </div>
+</div>

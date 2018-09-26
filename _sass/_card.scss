@@ -25,6 +25,23 @@
     width: 100%;
 }
 
+.cloud-category .card {
+    background: #fff;
+
+    &:hover {
+        box-shadow: 0 0 0 1px #d6d7d9;
+    }
+
+    &:active {
+        box-shadow: 0 0 0 1px #d6d7d9;
+    }
+
+    .card-banner {
+      padding: 2.5rem;
+    }
+    
+}
+
 .card-link {
     padding: 5px;
     text-decoration: none;
