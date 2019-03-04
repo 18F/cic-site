@@ -11,6 +11,7 @@ const formatUrl = provider => {
 
 const url = 'https://api.github.com/repos/18F/fedramp-data/contents/data/data.json';
 
+// TODO change to the field that contains the CIC category
 const categoryField = 'Deployment_Model';
 
 const getProviders = (category) => {
@@ -47,12 +48,15 @@ const getProviders = (category) => {
     }
   });
 
-  const foobar = document.getElementById('fedramp-vendors');
-  if (foobar) {
+  const fedRAMPVendors = document.getElementById('fedramp-vendors');
+  if (fedRAMPVendors) {
+
+    // TODO determine by the actual page/category
     const category = 'Hybrid Cloud';
+
     getProviders(category)
       .then(providers => {
-        foobar.innerHTML = providers
+        fedRAMPVendors.innerHTML = providers
           .map(({ name, url}) => `<li><a href="${url}">${name}</a></li>`)
           .join('');
       })
