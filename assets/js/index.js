@@ -1,3 +1,29 @@
+// Stuff for FedRAMP Vendors
+const formatName = provider =>
+  `${provider.Cloud_Service_Provider_Name} - ${provider.Cloud_Service_Provider_Package}`;
+
+const formatUrl = provider => {
+  const formatted = provider.Cloud_Service_Provider_Package
+    .toLowerCase()
+    .replace(/ /g, '-');
+  return `https://marketplace.fedramp.gov/#/product/${formatted}`
+};
+
+const url = 'https://api.github.com/repos/18F/fedramp-data/contents/data/data.json';
+
+const categoryField = 'Deployment_Model';
+
+const getProviders = (category) => {
+  return fetch(url)
+    .then(r => r.json())
+    .then(json =>
+      JSON.parse(atob(json.content)).data.Providers
+        .filter(provider => provider[categoryField] === category)
+        .map(provider => ({ name: formatName(provider), url: formatUrl(provider) }))
+    )
+};
+//
+
 (function (document, window, $) {
 
   // Initialize sticky fill
@@ -20,5 +46,16 @@
       $navPrimary.classList.remove("scrolled");
     }
   });
+
+  const foobar = document.getElementById('fedramp-vendors');
+  if (foobar) {
+    const category = 'Hybrid Cloud';
+    getProviders(category)
+      .then(providers => {
+        foobar.innerHTML = providers
+          .map(({ name, url}) => `<li><a href="${url}">${name}</a></li>`)
+          .join('');
+      })
+  }
 
 })(document, window, $);
